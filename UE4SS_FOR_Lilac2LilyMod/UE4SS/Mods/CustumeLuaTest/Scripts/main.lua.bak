@@ -1,0 +1,261 @@
+local MOD = "[CustumeLuaTest]"
+
+package.path = "Mods\\CustumeLuaTest\\Scripts\\?.lua;" .. package.path
+local json = require("json")
+
+local DT_ITEM_COSTUMES = "/Game/_Zion/Gameplay/Data/DT_ItemCostumes.DT_ItemCostumes"
+local TEMPLATE_ROW = "p0000"
+local COSTUME_ROW = "lua_probe_costume"
+local LOCALIZATION_JSON_PATH = "Mods\\CustumeLuaTest\\DT_ItemCostumes_Extension.json"
+
+local FN_CLIENT_RESTART = "/Script/Engine.PlayerController:ClientRestart"
+local FN_BACK_TO_TITLE_CONFIRM = "/Game/_Zion/UI/Pause/WBP_Pause.WBP_Pause_C:OnBackToTitleConfirm"
+local FN_EXIT_CONFIRM = "/Game/_Zion/UI/Pause/WBP_Pause.WBP_Pause_C:OnExitConfirm"
+local FN_CAN_DISPLAY_COSTUME_DATA = "/Game/_Zion/UI/RestMenu/Extra/WBP_Extra_Costume.WBP_Extra_Costume_C:CanDisplayCostumeData"
+local FN_PARENT_IS_COSTUME_OWNED = "/Game/_Zion/UI/RestMenu/Extra/WBP_Extra_Costume.WBP_Extra_Costume_C:IsCostumeOwned"
+local FN_ENTRY_IS_COSTUME_OWNED = "/Game/_Zion/UI/RestMenu/Extra/WBP_Extra_CostumeEntry.WBP_Extra_CostumeEntry_C:IsCostumeOwned"
+
+local STAGE_ARMED = "Armed"
+local STAGE_IN_SESSION = "InSession"
+
+local stage = STAGE_ARMED
+local top_hooks = {}
+local ui_hooks = {}
+local delayed_callbacks = {}
+local localization_table = nil
+local row_cmp_index = nil
+local ui_hooks_installed = false
+local pause_hooks_installed = false
+
+local function log(message)
+    print(string.format("%s %s\n", MOD, message))
+end
+
+local function set_stage(next_stage, trigger)
+    log(string.format("[stage] %s -> %s (trigger: %s)", stage, next_stage, trigger))
+    stage = next_stage
+end
+
+local function delay(label, ms, fn)
+    local wrapper = nil
+    wrapper = function()
+        delayed_callbacks[label] = nil
+        fn()
+    end
+    delayed_callbacks[label] = wrapper
+
+    ExecuteInGameThreadWithDelay(ms, wrapper)
+end
+
+local function register_hook(hooks, path, fn)
+    local pre_id, post_id = RegisterHook(path, fn)
+
+    hooks[path] = {
+        pre_id = pre_id,
+        post_id = post_id,
+        callback = fn,
+    }
+    log(string.format("RegisterHook ok: %s pre=%s post=%s", path, tostring(pre_id), tostring(post_id)))
+end
+
+local function unregister_hooks(hooks)
+    for path, hook in pairs(hooks) do
+        UnregisterHook(path, hook.pre_id, hook.post_id)
+    end
+    for path in pairs(hooks) do
+        hooks[path] = nil
+    end
+end
+
+local function localization()
+    if localization_table ~= nil then
+        return localization_table
+    end
+
+    localization_table = {}
+    local file = io.open(LOCALIZATION_JSON_PATH, "rb")
+    local parsed = json.decode(file:read("*a"))
+    file:close()
+
+    for culture, entries in pairs(parsed) do
+        if entries["p0101.Name"] ~= nil and entries["p0101.Description"] ~= nil then
+            localization_table[culture] = {
+                Name = entries["p0101.Name"],
+                Description = entries["p0101.Description"],
+            }
+        end
+    end
+    return localization_table
+end
+
+local function patch_text(row)
+    local text = localization()["en-US"]
+    row.Name = FText(text.Name)
+    row.Description = FText(text.Description)
+end
+
+local function ensure_costume_row()
+    local dt = StaticFindObject(DT_ITEM_COSTUMES)
+
+    local existing = dt:FindRow(COSTUME_ROW)
+    if existing ~= nil then
+        patch_text(existing)
+        log(string.format("probe row already exists, rows=%d", #dt:GetRowNames()))
+        return
+    end
+
+    local before = #dt:GetRowNames()
+    dt:AddRow(COSTUME_ROW, dt:FindRow(TEMPLATE_ROW))
+
+    local row = dt:FindRow(COSTUME_ROW)
+    log(string.format("ensure row AddRow found=%s rows %d -> %d", tostring(row ~= nil), before, #dt:GetRowNames()))
+    if row ~= nil then
+        patch_text(row)
+    end
+end
+
+local function remove_costume_row(use_destructor)
+    -- local dt = StaticFindObject(DT_ITEM_COSTUMES)
+    -- if dt:FindRow(COSTUME_ROW) == nil then
+    --     return
+    -- end
+
+    -- if use_destructor then
+    --     dt:RemoveRow(COSTUME_ROW)
+    --     log("RemoveRow done, rows final=" .. tostring(#dt:GetRowNames()))
+    -- else
+    --     dt:GetRowMap():Remove(FName(COSTUME_ROW))
+    --     log("RowMap.Remove done, rows final=" .. tostring(#dt:GetRowNames()))
+    -- end
+end
+
+local function unwrap(value)
+    if value == nil then
+        return nil
+    end
+    local ok, unwrapped = pcall(function()
+        return value:get()
+    end)
+    if ok and unwrapped ~= nil then
+        return unwrapped
+    end
+    return value
+end
+
+local function row_cmp_from_handle(handle_param)
+    local handle = unwrap(handle_param)
+    return handle.RowName:GetComparisonIndex()
+end
+
+local function is_costume_row(row_cmp)
+    if row_cmp_index == nil then
+        row_cmp_index = FName(COSTUME_ROW):GetComparisonIndex()
+    end
+
+    return row_cmp == row_cmp_index
+end
+
+local function install_ui_hooks()
+    if ui_hooks_installed then
+        return
+    end
+
+    register_hook(ui_hooks, FN_CAN_DISPLAY_COSTUME_DATA, function(Context, Handle, bResult)
+        if is_costume_row(row_cmp_from_handle(Handle)) then
+            bResult:set(true)
+            return true
+        end
+        return nil
+    end)
+
+    register_hook(ui_hooks, FN_PARENT_IS_COSTUME_OWNED, function(Context, CostumeDataRowHandle, IsCostumeOwned)
+        if is_costume_row(row_cmp_from_handle(CostumeDataRowHandle)) then
+            IsCostumeOwned:set(true)
+            return true
+        end
+        return nil
+    end)
+
+    register_hook(ui_hooks, FN_ENTRY_IS_COSTUME_OWNED, function(Context, ResultParam)
+        local context = unwrap(Context)
+        if is_costume_row(row_cmp_from_handle(context.CostumeHandle)) then
+            ResultParam:set(true)
+            return true
+        end
+        return nil
+    end)
+
+    ui_hooks_installed = true
+    log("session UI hooks installed")
+end
+
+local function uninstall_ui_hooks(remove_with_destructor)
+    unregister_hooks(ui_hooks)
+    ui_hooks_installed = false
+    remove_costume_row(remove_with_destructor)
+    log("session UI hooks removed")
+end
+
+local on_back_to_title = nil
+local on_exit_confirm = nil
+
+local function install_pause_top_hooks()
+    if pause_hooks_installed then
+        return
+    end
+
+    register_hook(top_hooks, FN_BACK_TO_TITLE_CONFIRM, function()
+        on_back_to_title()
+        return nil
+    end)
+    register_hook(top_hooks, FN_EXIT_CONFIRM, function()
+        on_exit_confirm()
+        return nil
+    end)
+    pause_hooks_installed = true
+    log("top pause hooks installed")
+end
+
+local function on_client_restart()
+    if stage ~= STAGE_ARMED then
+        return
+    end
+
+    set_stage(STAGE_IN_SESSION, "ClientRestart")
+    delay("session_init", 1000, function()
+        if stage ~= STAGE_IN_SESSION then
+            return
+        end
+        ensure_costume_row()
+        install_pause_top_hooks()
+        install_ui_hooks()
+    end)
+end
+
+on_back_to_title = function()
+    if stage ~= STAGE_IN_SESSION then
+        return
+    end
+
+    set_stage(STAGE_ARMED, "BackToTitleConfirm")
+    uninstall_ui_hooks(false)
+end
+
+on_exit_confirm = function()
+    log("ExitConfirm cleanup")
+    if ui_hooks_installed then
+        unregister_hooks(ui_hooks)
+        ui_hooks_installed = false
+    end
+    remove_costume_row(false)
+end
+
+local function install_top_hooks()
+    register_hook(top_hooks, FN_CLIENT_RESTART, function()
+        on_client_restart()
+        return nil
+    end)
+end
+
+log("[stage] Armed (trigger: on_unreal_init)")
+install_top_hooks()

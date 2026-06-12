@@ -1,0 +1,46 @@
+{
+  "en-US": {
+    "p0101.Name": "Garment of Bygone Days",
+    "p0101.Description": "A garment that Lily has always kept by her side,\none of the few remaining bonds to her homeland.\nThrough a journey woven of regrets and hopes,\nthe maiden has at last welcomed the dawn."
+  },
+  "ja-JP": {
+    "p0101.Name": "遠き日々の衣",
+    "p0101.Description": "リリィがずっと身につけてきた衣\n故郷との数少ない絆のひとつ\n後悔と願いに彩られた旅路の果てに\n少女はようやく夜明けを迎えた"
+  },
+  "zh-Hans": {
+    "p0101.Name": "往昔记忆的衣裳",
+    "p0101.Description": "莉莉一直带着这件衣服，\n这是她与故乡仅剩的羁绊之一。\n历经了一路的遗憾与希翼，\n少女终于迎来了朝阳。"
+  },
+  "zh-Hant": {
+    "p0101.Name": "往昔記憶的衣裳",
+    "p0101.Description": "莉莉一直帶著這件衣服，\n這是她與故鄉僅剩的羈絆之一。\n歷經了一路的遺憾與希冀，\n少女終於迎來了朝陽。"
+  },
+  "ko-KR": {
+    "p0101.Name": "지난날의 옷",
+    "p0101.Description": "릴리가 줄곧 몸에 지녀온 옷\n고향과 이어진 몇 안 되는 인연 중 하나\n후회와 희망이 가득한 여정 끝에\n소녀는 마침내 새벽을 맞이했습니다"
+  },
+  "ru-RU": {
+    "p0101.Name": "Одеяние ушедших дней",
+    "p0101.Description": "Одеяние, которое Лили всегда носила с собой,\nодна из немногих оставшихся нитей,\nсвязывающих её с родиной. Пройдя путь,\nсотканный из сожалений и надежд,\nдева наконец встретила рассвет."
+  },
+  "de-DE": {
+    "p0101.Name": "Gewand vergangener Tage",
+    "p0101.Description": "Ein Gewand, das Lily stets bei sich trug.\nEines der wenigen Bande, die sie noch\nmit ihrer Heimat verbinden. Nach einer Reise\nvoller Reue und Hoffnungen begrüßt\ndie Maid endlich das Morgenlicht."
+  },
+  "fr-FR": {
+    "p0101.Name": "Tenue des jours anciens",
+    "p0101.Description": "Une tenue que Lily a toujours gardée\nprès d'elle, l'un des rares liens qui la\nrattachent encore à sa terre natale.\nAu bout d'un voyage tissé de regrets\net d'espoirs, la jeune fille accueille\nenfin l'aurore."
+  },
+  "es-ES": {
+    "p0101.Name": "Vestido de los días pasados",
+    "p0101.Description": "Una prenda que Lily ha conservado siempre\nconsigo, uno de los pocos vínculos que aún\nla unen a su tierra natal. Tras un viaje\ntejido de pesares y esperanzas, la doncella\npor fin contempla el alba."
+  },
+  "it-IT": {
+    "p0101.Name": "Veste dei giorni lontani",
+    "p0101.Description": "Una veste che Lily ha sempre portato con sé,\nuno dei pochi legami che la uniscono ancora\nalla sua terra natale. Al termine di un viaggio\ntessuto di rimpianti e di speranze, la fanciulla\nsaluta finalmente l'alba."
+  },
+  "pt-BR": {
+    "p0101.Name": "Veste dos dias passados",
+    "p0101.Description": "Uma veste que Lily sempre carregou consigo,\num dos poucos elos que ainda a unem\nà sua terra natal. Após uma jornada tecida\nde arrependimentos e esperanças, a donzela\nenfim contempla o alvorecer."
+  }
+}

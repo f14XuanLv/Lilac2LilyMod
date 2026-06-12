@@ -1,0 +1,19 @@
+{
+  "NativeCulture": "ab",
+  "NativeLocRes": "ab/Game.locres",
+  "CompiledCultures": [
+    "ab",
+    "de-DE",
+    "en-US",
+    "es-ES",
+    "fr-FR",
+    "it-IT",
+    "ja-JP",
+    "ko-KR",
+    "pt-BR",
+    "ru-RU",
+    "zh-Hans",
+    "zh-Hant"
+  ],
+  "bIsUGC": false
+}

@@ -1,0 +1,57 @@
+{
+   "Meta": {
+      "Address": "0000025778ABED40",
+      "ClassPrivate": {
+         "Address": "0000025748BDEC00",
+         "Name": "SpineSkeletonDataAsset"
+      },
+      "NamePrivate": {
+         "Components": {
+            "ComparisonIndex": 2061649,
+            "DisplayIndex": null,
+            "Number": 0
+         },
+         "String": "p0101_Lily-data"
+      },
+      "ObjectFlags": {
+         "Flags": [
+            "RF_Public",
+            "RF_Standalone",
+            "RF_Transactional",
+            "RF_WasLoaded",
+            "RF_LoadCompleted",
+            "RF_AllFlags"
+         ],
+         "Raw": 2621451
+      },
+      "Path": "/Game/_Zion/Characters/p0101_Lily/Spine/p0101_Lily-data.p0101_Lily-data",
+      "PlayerControlled": false,
+      "Size": {
+         "Exclusive": {
+            "Object": 40,
+            "SpineSkeletonDataAsset": 264
+         },
+         "Inclusive": {
+            "Object": 40,
+            "SpineSkeletonDataAsset": 304
+         },
+         "Total": 304
+      }
+   },
+   "Values": {
+      "Animations": "",
+      "Bones": "",
+      "BreakSkins": "",
+      "DefaultMix": "0.100000",
+      "DefaultSkins": "(\"_common\",\"_Meat_Head_0\",\"p0101_Lily\")",
+      "Events": "",
+      "FootIKAnimations": "",
+      "MeshUpdateSettings": "(bUpdateColorData=True,bUpdateUVData=False)",
+      "MixData": "",
+      "ScaleFactor": "0.260000",
+      "Skins": "",
+      "Slots": "",
+      "rawData": "please use .skel's data",
+      "skeletonDataFileName": "not important"
+   }
+}

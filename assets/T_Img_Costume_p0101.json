@@ -1,0 +1,81 @@
+{
+   "Meta": {
+      "Address": "0000021931288B00",
+      "ClassPrivate": {
+         "Address": "0000021902101C00",
+         "Name": "Texture2D"
+      },
+      "NamePrivate": {
+         "Components": {
+            "ComparisonIndex": 2061761,
+            "DisplayIndex": null,
+            "Number": 0
+         },
+         "String": "T_Img_Costume_p0101"
+      },
+      "ObjectFlags": {
+         "Flags": [
+            "RF_Public",
+            "RF_Standalone",
+            "RF_Transactional",
+            "RF_WasLoaded",
+            "RF_LoadCompleted",
+            "RF_AllFlags"
+         ],
+         "Raw": 2621451
+      },
+      "Path": "/Engine/Transient.T_Img_Costume_p0101",
+      "PlayerControlled": false,
+      "Size": {
+         "Exclusive": {
+            "Object": 40,
+            "StreamableRenderAsset": 160,
+            "Texture": 104,
+            "Texture2D": 32
+         },
+         "Inclusive": {
+            "Object": 40,
+            "StreamableRenderAsset": 200,
+            "Texture": 304,
+            "Texture2D": 336
+         },
+         "Total": 336
+      }
+   },
+   "Values": {
+      "AddressX": "TA_Wrap",
+      "AddressY": "TA_Wrap",
+      "AssetUserData": "",
+      "Availability": "GPU",
+      "CompressionSettings": "TC_BC7",
+      "CompressionYCoCg": "False",
+      "CookPlatformTilingSettings": "TCPTS_FromTextureGroup",
+      "Downscale": "(Default=0.000000)",
+      "DownscaleOptions": "Default",
+      "Filter": "TF_Default",
+      "FirstResourceMemMip": "0",
+      "ForceMipLevelsToBeResidentTimestamp": "0.000000",
+      "ImportedSize": "(X=1300,Y=1300)",
+      "LODBias": "0",
+      "LODGroup": "TEXTUREGROUP_UI",
+      "LevelIndex": "-1",
+      "LightingGuid": "E781EE1245072A616ED5DD9A511E630C",
+      "MipLoadOptions": "Default",
+      "NeverStream": "True",
+      "NoRefStreamingLODBias": "(Default=-1,PerQuality=())",
+      "NumCinematicMipLevels": "0",
+      "SRGB": "True",
+      "StreamingIndex": "-1",
+      "VirtualTextureStreaming": "False",
+      "bAsyncResourceReleaseHasBeenStarted": "False",
+      "bForceMiplevelsToBeResident": "False",
+      "bGlobalForceMipLevelsToBeResident": "False",
+      "bHasStreamingUpdatePending": "False",
+      "bIgnoreStreamingMipBias": "False",
+      "bNoTiling": "False",
+      "bNotOfflineProcessed": "False",
+      "bOodlePreserveExtremes": "False",
+      "bTemporarilyDisableStreaming": "False",
+      "bUseCinematicMipLevels": "False"
+   }
+}

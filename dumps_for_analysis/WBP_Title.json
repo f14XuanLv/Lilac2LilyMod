@@ -1,0 +1,2956 @@
+[
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Title_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.1"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Title_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.2"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Title_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.3"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Title_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.4"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Title_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.5"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Title_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Title_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.0"
+      },
+      "Content": {
+        "ObjectName": "NamedSlot'WBP_Title_C:WidgetTree.BGHolder'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.31"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 280.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Title_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.0"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WBP_Title_C:WidgetTree.VerticalBox_Buttons'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.39"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 1820.0,
+          "Top": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Title_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.0"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WBP_Title_C:WidgetTree.VerticalBox_Version'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.40"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Title_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.0"
+      },
+      "Content": {
+        "ObjectName": "WBP_Footer_C'WBP_Title_C:WidgetTree.WBP_Footer'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.52"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -1820.0,
+          "Top": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Title_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.0"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Title_C:WidgetTree.ProfileName'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.36"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_6",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -120.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Title_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.0"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Title_C:WidgetTree.TextBlock_40'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.37"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "WBP_Button_Generic_Settings",
+          "DelegatePropertyName": "OnPressed",
+          "FunctionNameToBind": "BndEvt__WBP_Title_WBP_Button_Generic_Settings_K2Node_ComponentBoundEvent_2_OnPressed__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "WBP_Button_Generic_Start",
+          "DelegatePropertyName": "OnPressed",
+          "FunctionNameToBind": "BndEvt__WBP_Title_WBP_Button_Generic_Start_K2Node_ComponentBoundEvent_1_OnPressed__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "WBP_Button_Generic_Exit",
+          "DelegatePropertyName": "OnPressed",
+          "FunctionNameToBind": "BndEvt__WBP_Title_WBP_Button_Generic_Exit_K2Node_ComponentBoundEvent_0_OnPressed__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__WBP_Title_WBP_Button_Generic_Exit_K2Node_ComponentBoundEvent_0_OnPressed__DelegateSignature",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "KeyEvent",
+        "Flags": "RF_Public",
+        "ElementSize": 72,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'KeyEvent'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__WBP_Title_WBP_Button_Generic_Settings_K2Node_ComponentBoundEvent_2_OnPressed__DelegateSignature",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "KeyEvent",
+        "Flags": "RF_Public",
+        "ElementSize": 72,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'KeyEvent'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__WBP_Title_WBP_Button_Generic_Start_K2Node_ComponentBoundEvent_1_OnPressed__DelegateSignature",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "KeyEvent",
+        "Flags": "RF_Public",
+        "ElementSize": 72,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'KeyEvent'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "CanChangeTitleScreen",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'GameSettingsSubsystem'",
+          "ObjectPath": "/Script/Zion"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_DidReachAnyGameEnding_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Title",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Create_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_SlotSelection_C'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_SlotSelection.68"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Create_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Settings_C'",
+          "ObjectPath": "/Game/_Zion/UI/Settings/WBP_Settings.71"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Create_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_DemoStart_C'",
+          "ObjectPath": "/Game/_Zion/UI/Demo/WBP_DemoStart.13"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Create_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Dialog_TitleScreenSelection_C'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Dialog_TitleScreenSelection.36"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'DelayFrameOutputPin__DelegateSignature'",
+          "ObjectPath": "/Script/Zion"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_DelayFrame_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'DelayFrameAsyncAction'",
+          "ObjectPath": "/Script/Zion"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_KeyEvent_2",
+        "Flags": "RF_Public",
+        "ElementSize": 72,
+        "Struct": {
+          "ObjectName": "Class'KeyEvent'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_KeyEvent_1",
+        "Flags": "RF_Public",
+        "ElementSize": 72,
+        "Struct": {
+          "ObjectName": "Class'KeyEvent'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayUMGAnimation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PlayUMGAnimationAsyncAction'",
+          "ObjectPath": "/Script/Zion"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_KeyEvent",
+        "Flags": "RF_Public",
+        "ElementSize": 72,
+        "Struct": {
+          "ObjectName": "Class'KeyEvent'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDemoBuild_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'PlayUMGAnimationOutputPin__DelegateSignature'",
+          "ObjectPath": "/Script/Zion"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CanChangeTitleScreen_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Function'WBP_Dialog_TitleScreenSelection_C:OnTitleSelected__DelegateSignature'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Dialog_TitleScreenSelection.11"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnFinish_556333D643709F6C35D0529662EAA011",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnFinish_F0089B36441A327D70DEC9A83EAD86A7",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnFocusReceived",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget:OnFocusReceived'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "MyGeometry",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'Geometry'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "InFocusEvent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'FocusEvent'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 192,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "Struct": {
+          "ObjectName": "Class'EventReply'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Handled_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 192,
+        "Struct": {
+          "ObjectName": "Class'EventReply'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnPressContext",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidgetZion:OnPressContext'",
+      "ObjectPath": "/Script/Zion"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "KeyEvent",
+        "Flags": "RF_Public",
+        "ElementSize": 72,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+        "Struct": {
+          "ObjectName": "Class'KeyEvent'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 192,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "Struct": {
+          "ObjectName": "Class'EventReply'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Handled_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 192,
+        "Struct": {
+          "ObjectName": "Class'EventReply'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnRequestTitleChange",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTitleSelected",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "RefreshUserProfile",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'ProfileSubsystem'",
+          "ObjectPath": "/Script/Zion"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsUsingProfileSystem_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetCurrentProfileName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_StringToText_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData",
+        "Flags": "RF_Public",
+        "ElementSize": 72,
+        "Struct": {
+          "ObjectName": "Class'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 72,
+          "Struct": {
+            "ObjectName": "Class'FormatArgumentData'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Format_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetupBG",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bForce",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'GameSettingsSubsystem'",
+          "ObjectPath": "/Script/Zion"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_GetTitleType_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EGameEndingType'",
+          "ObjectPath": "/Script/Zion"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_RemoveChildAt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "SoftObjectProperty",
+        "Name": "CallFunc_Map_Find_Value",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyClass": {
+          "ObjectName": "Class'World'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "ConstParm",
+        "Enum": {
+          "ObjectName": "Class'EGameEndingType'",
+          "ObjectPath": "/Script/Zion"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LoadLevelInstanceBySoftObjectPtr_bOutSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_LoadLevelInstanceBySoftObjectPtr_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LevelStreamingDynamic'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ByteByte_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "SoftClassProperty",
+        "Name": "CallFunc_Map_Find_Value_1",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyClass": {
+          "ObjectName": "Class'Class'",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class'UserWidget'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "SoftClassProperty",
+        "Name": "CallFunc_Map_Find_Value_2",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyClass": {
+          "ObjectName": "Class'Class'",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class'UserWidget'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Map_Find_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "SoftClassProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "UObjectWrapper",
+        "PropertyClass": {
+          "ObjectName": "Class'Class'",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "CallFunc_LoadClassAsset_Blocking_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Class'",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "K2Node_ClassDynamicCast_AsUser_Widget",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Class'",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class'UserWidget'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ClassDynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Create_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'UserWidget'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_AddChild_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PanelSlot'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetupFooter",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CanChangeTitleScreen_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetupMenuButtons",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsPCBuild_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetupVersion",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_5",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsDemoBuild_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsEarlyAccessBuild_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_DoesGameVersionMatchesPakVersion_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetGameBuildNumber_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_IntToText_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetGameVersion_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_StringToText_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Show",
+    "Outer": "Show_INST",
+    "Class": "UScriptClass'MovieScene'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          },
+          "Guid": "6F399B19-4249A2AF-AA2B8FA0-B7AAE417",
+          "Name": "WBP_Title_C_47",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "6F399B19-4249A2AF-AA2B8FA0-B7AAE417",
+          "BindingName": "WBP_Title_C_47",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'WBP_Title_C:Show_INST.Show.MovieSceneFloatTrack_0'",
+              "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.30"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 9001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "809977FB-4959F329-C30D82BE-F86BFAB6"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": "Show_INST",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 9000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'WBP_Title_C:Show_INST.Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.29"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "6F399B19-4249A2AF-AA2B8FA0-B7AAE417"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 9000
+          },
+          "SubFrame": 0.0
+        }
+      ],
+      "CompiledSignature": "323ACAD4-4C3F22FA-DB271EBD-13AE93AE",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_0",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 9000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_Title_C:Show_INST.Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.26"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_Title_C:Show_INST.Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.27"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 9000
+            }
+          }
+        }
+      },
+      "Signature": "263678DC-4C65378C-9FD543AD-28A2991F"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Outer": "Show",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'WBP_Title_C:Show_INST.Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.29"
+        }
+      ],
+      "EvaluationFieldGuid": "66A23E23-4D40A0CA-41B72795-726C0F6D",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'WBP_Title_C:Show_INST.Show.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.29"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 9000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "66A23E23-4D40A0CA-41B72795-726C0F6D"
+    }
+  },
+  {
+    "Type": "NamedSlot",
+    "Name": "BGHolder",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'NamedSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Title_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.1"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "BuildNumberText",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "123456"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'FNT_Zion'",
+          "ObjectPath": "/Game/_Zion/UI/Fonts/FNT_Zion.0"
+        },
+        "TypefaceFontName": "Default"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Title_C:WidgetTree.VerticalBox_Version.VerticalBoxSlot_1'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.45"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "DemoLabel",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/_Zion/StringTables/ST_Title.ST_Title",
+        "Key": "TITLE_DEMO",
+        "SourceString": "Demo",
+        "LocalizedString": "Demo"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'FNT_Zion'",
+          "ObjectPath": "/Game/_Zion/UI/Fonts/FNT_Zion.0"
+        },
+        "TypefaceFontName": "Default"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Title_C:WidgetTree.VerticalBox_Version.VerticalBoxSlot_4'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.48"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "EarlyAccessLabel",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/_Zion/StringTables/ST_Title.ST_Title",
+        "Key": "TITLE_EARLYACCESS",
+        "SourceString": "Early access",
+        "LocalizedString": "Early access"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'FNT_Zion'",
+          "ObjectPath": "/Game/_Zion/UI/Fonts/FNT_Zion.0"
+        },
+        "TypefaceFontName": "Default"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Title_C:WidgetTree.VerticalBox_Version.VerticalBoxSlot_3'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.47"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "InvalidVersionText",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/_Zion/StringTables/ST_Title.ST_Title",
+        "Key": "TITLE_VERSION_MISMATCH",
+        "SourceString": "Game / Data version conflict",
+        "LocalizedString": "Game / Data version conflict"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.225562,
+          "B": 0.105803,
+          "A": 1.0,
+          "Hex": "FF835B"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'FNT_Zion'",
+          "ObjectPath": "/Game/_Zion/UI/Fonts/FNT_Zion.0"
+        },
+        "TypefaceFontName": "Default"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Title_C:WidgetTree.VerticalBox_Version.VerticalBoxSlot_2'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.46"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "ProfileName",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/_Zion/StringTables/ST_Profile.ST_Profile",
+        "Key": "PROFILE_PLAYING_AS",
+        "SourceString": "Playing as: {0}",
+        "LocalizedString": "Playing as: {0}"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'FNT_Zion'",
+          "ObjectPath": "/Game/_Zion/UI/Fonts/FNT_Zion.0"
+        },
+        "TypefaceFontName": "Default"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Title_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.5"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_40",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/_Zion/StringTables/Unlocalized/ST_Unlocalized_System.ST_Unlocalized_System",
+        "Key": "TITLE_COPYRIGHT",
+        "SourceString": "© 2025 Binary Haze Interactive Inc. All rights reserved.\r\nUnreal® Engine, Copyright 1998 – 2025, Epic Games, Inc. All rights reserved.\r\nSpine - © 2013-2025 Esoteric Software LLC | Made using FMOD Studio by Firelight Technologies Pty Ltd.",
+        "LocalizedString": "© 2025 Binary Haze Interactive Inc. All rights reserved.\r\nUnreal® Engine, Copyright 1998 – 2025, Epic Games, Inc. All rights reserved.\r\nSpine - © 2013-2025 Esoteric Software LLC | Made using FMOD Studio by Firelight Technologies Pty Ltd."
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'FNT_Zion'",
+          "ObjectPath": "/Game/_Zion/UI/Fonts/FNT_Zion.0"
+        },
+        "TypefaceFontName": "Default"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Title_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.6"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "VersionText",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "0.0.0"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'FNT_Zion'",
+          "ObjectPath": "/Game/_Zion/UI/Fonts/FNT_Zion.0"
+        },
+        "TypefaceFontName": "Default"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Title_C:WidgetTree.VerticalBox_Version.VerticalBoxSlot_0'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.44"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_Buttons",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Title_C:WidgetTree.VerticalBox_Buttons.VerticalBoxSlot_0'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.41"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Title_C:WidgetTree.VerticalBox_Buttons.VerticalBoxSlot_1'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.42"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Title_C:WidgetTree.VerticalBox_Buttons.VerticalBoxSlot_2'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.43"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Title_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.2"
+      },
+      "Navigation": {
+        "ObjectName": "WidgetNavigation'WBP_Title_C:WidgetTree.VerticalBox_Buttons.WidgetNavigation_0'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.56"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_Version",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Title_C:WidgetTree.VerticalBox_Version.VerticalBoxSlot_0'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.44"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Title_C:WidgetTree.VerticalBox_Version.VerticalBoxSlot_3'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.47"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Title_C:WidgetTree.VerticalBox_Version.VerticalBoxSlot_4'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.48"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Title_C:WidgetTree.VerticalBox_Version.VerticalBoxSlot_1'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.45"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Title_C:WidgetTree.VerticalBox_Version.VerticalBoxSlot_2'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.46"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Title_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.3"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "VerticalBox_Buttons",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Title_C:WidgetTree.VerticalBox_Buttons'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_Button_Generic_C'WBP_Title_C:WidgetTree.WBP_Button_Generic_Start'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.51"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "VerticalBox_Buttons",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Title_C:WidgetTree.VerticalBox_Buttons'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_Button_Generic_C'WBP_Title_C:WidgetTree.WBP_Button_Generic_Settings'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.50"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": "VerticalBox_Buttons",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Title_C:WidgetTree.VerticalBox_Buttons'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.39"
+      },
+      "Content": {
+        "ObjectName": "WBP_Button_Generic_C'WBP_Title_C:WidgetTree.WBP_Button_Generic_Exit'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.49"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "VerticalBox_Version",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Title_C:WidgetTree.VerticalBox_Version'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.40"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Title_C:WidgetTree.VersionText'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.38"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "VerticalBox_Version",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Title_C:WidgetTree.VerticalBox_Version'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.40"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Title_C:WidgetTree.BuildNumberText'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.32"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": "VerticalBox_Version",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Title_C:WidgetTree.VerticalBox_Version'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.40"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Title_C:WidgetTree.InvalidVersionText'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.35"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": "VerticalBox_Version",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Title_C:WidgetTree.VerticalBox_Version'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.40"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Title_C:WidgetTree.EarlyAccessLabel'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.34"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_4",
+    "Outer": "VerticalBox_Version",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Right",
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Title_C:WidgetTree.VerticalBox_Version'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.40"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Title_C:WidgetTree.DemoLabel'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.33"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Button_Generic_C",
+    "Name": "WBP_Button_Generic_Exit",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'/Game/_Zion/UI/Common/WBP_Button_Generic.WBP_Button_Generic_C'",
+    "Template": {
+      "ObjectName": "WBP_Button_Generic_C'Default__WBP_Button_Generic_C'",
+      "ObjectPath": "/Game/_Zion/UI/Common/WBP_Button_Generic.61"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/_Zion/StringTables/ST_Title.ST_Title",
+        "Key": "TITLE_EXIT",
+        "SourceString": "Exit",
+        "LocalizedString": "Exit"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Title_C:WidgetTree.VerticalBox_Buttons.VerticalBoxSlot_2'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.43"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Button_Generic_C",
+    "Name": "WBP_Button_Generic_Settings",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'/Game/_Zion/UI/Common/WBP_Button_Generic.WBP_Button_Generic_C'",
+    "Template": {
+      "ObjectName": "WBP_Button_Generic_C'Default__WBP_Button_Generic_C'",
+      "ObjectPath": "/Game/_Zion/UI/Common/WBP_Button_Generic.61"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/_Zion/StringTables/ST_Title.ST_Title",
+        "Key": "TITLE_SETTINGS",
+        "SourceString": "Settings",
+        "LocalizedString": "Settings"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Title_C:WidgetTree.VerticalBox_Buttons.VerticalBoxSlot_1'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.42"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Button_Generic_C",
+    "Name": "WBP_Button_Generic_Start",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'/Game/_Zion/UI/Common/WBP_Button_Generic.WBP_Button_Generic_C'",
+    "Template": {
+      "ObjectName": "WBP_Button_Generic_C'Default__WBP_Button_Generic_C'",
+      "ObjectPath": "/Game/_Zion/UI/Common/WBP_Button_Generic.61"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/_Zion/StringTables/ST_Title.ST_Title",
+        "Key": "TITLE_START",
+        "SourceString": "Start",
+        "LocalizedString": "Start"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Title_C:WidgetTree.VerticalBox_Buttons.VerticalBoxSlot_0'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.41"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Footer_C",
+    "Name": "WBP_Footer",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'/Game/_Zion/UI/Common/WBP_Footer.WBP_Footer_C'",
+    "Template": {
+      "ObjectName": "WBP_Footer_C'Default__WBP_Footer_C'",
+      "ObjectPath": "/Game/_Zion/UI/Common/WBP_Footer.19"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultFooterEntries": [
+        {
+          "InputElement": {
+            "InputDescription": {
+              "InputType": "EInputType::UI",
+              "UIInputType": "EUIInputType::Confirm",
+              "ActionInputType": "EActionInputType::None",
+              "InputAction": {
+                "ObjectName": "InputAction'IA_Movement'",
+                "ObjectPath": "/Game/_Zion/Gameplay/Inputs/IA_Movement.0"
+              }
+            },
+            "bOverrideInputDescription": false,
+            "InputOverride": "",
+            "Color": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "Width": 0,
+            "Height": 0,
+            "bVerticalCenter": false
+          },
+          "Label": {
+            "TableId": "/Game/_Zion/StringTables/ST_Common.ST_Common",
+            "Key": "COMMON_FOOTER_CONFIRM",
+            "SourceString": "Confirm",
+            "LocalizedString": "Confirm"
+          }
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Title_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.4"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Title_C",
+    "Name": "Default__WBP_Title_C",
+    "Class": "WidgetBlueprintGeneratedClass'/Game/_Zion/UI/Title/WBP_Title.WBP_Title_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Titles": [
+        {
+          "Key": "EGameEndingType::EndingA",
+          "Value": {
+            "AssetPathName": "/Game/_Zion/UI/Title/WBP_Title_BG_EndingA.WBP_Title_BG_EndingA_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EGameEndingType::EndingB",
+          "Value": {
+            "AssetPathName": "/Game/_Zion/UI/Title/WBP_Title_BG_EndingB.WBP_Title_BG_EndingB_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EGameEndingType::None",
+          "Value": {
+            "AssetPathName": "/Game/_Zion/UI/Title/WBP_Title_BG_Default.WBP_Title_BG_Default_C",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "TitleLevels": [
+        {
+          "Key": "EGameEndingType::None",
+          "Value": {
+            "AssetPathName": "/Game/_Zion/Maps/Title/Title_Default.Title_Default",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EGameEndingType::EndingA",
+          "Value": {
+            "AssetPathName": "/Game/_Zion/Maps/Title/Title_EndingA.Title_EndingA",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EGameEndingType::EndingB",
+          "Value": {
+            "AssetPathName": "/Game/_Zion/Maps/Title/Title_EndingB.Title_EndingB",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Footer_TitleChange": {
+        "InputElement": {
+          "InputDescription": {
+            "InputType": "EInputType::UI",
+            "UIInputType": "EUIInputType::Context",
+            "ActionInputType": "EActionInputType::None",
+            "InputAction": {
+              "ObjectName": "InputAction'IA_Movement'",
+              "ObjectPath": "/Game/_Zion/Gameplay/Inputs/IA_Movement.0"
+            }
+          },
+          "bOverrideInputDescription": false,
+          "InputOverride": "",
+          "Color": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          },
+          "Width": 0,
+          "Height": 0,
+          "bVerticalCenter": false
+        },
+        "Label": {
+          "TableId": "/Game/_Zion/StringTables/ST_Title.ST_Title",
+          "Key": "FOOTER_TITLE_SELECTION",
+          "SourceString": "Select title",
+          "LocalizedString": "Select title"
+        }
+      },
+      "SE_TitleScreenSelection": {
+        "ObjectName": "FMODEvent'UI-confirm'",
+        "ObjectPath": "/Game/FMOD/Events/SE-UI/UI-confirm.0"
+      },
+      "bIsFocusable": true,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Show_INST",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'WBP_Title_C:Show_INST.Show'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.25"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "WBP_Title_C_47",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "6F399B19-4249A2AF-AA2B8FA0-B7AAE417",
+          "bIsRootWidget": true
+        }
+      ],
+      "DisplayLabel": "Show",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'WBP_Title_C:Show_INST.CompiledData'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.28"
+      },
+      "Signature": "323ACAD4-4C3F22FA-DB271EBD-13AE93AE"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Title_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Title_C:WidgetTree'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.57"
+      },
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'WBP_Title_C:Show_INST'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.54"
+        }
+      ],
+      "NamedSlots": [
+        "BGHolder"
+      ],
+      "AvailableNamedSlots": [
+        "BGHolder"
+      ],
+      "InstanceNamedSlots": [
+        "BGHolder"
+      ],
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'WBP_Title_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.7"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Title_C:ExecuteUbergraph_WBP_Title'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.13"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidgetZion'",
+      "ObjectPath": "/Script/Zion"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'WBP_Title_C:OnPressContext'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.17"
+      },
+      {
+        "ObjectName": "Function'WBP_Title_C:CanChangeTitleScreen'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.11"
+      },
+      {
+        "ObjectName": "Function'WBP_Title_C:SetupFooter'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.22"
+      },
+      {
+        "ObjectName": "Function'WBP_Title_C:SetupBG'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.21"
+      },
+      {
+        "ObjectName": "Function'WBP_Title_C:RefreshUserProfile'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.20"
+      },
+      {
+        "ObjectName": "Function'WBP_Title_C:SetupMenuButtons'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.23"
+      },
+      {
+        "ObjectName": "Function'WBP_Title_C:SetupVersion'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.24"
+      },
+      {
+        "ObjectName": "Function'WBP_Title_C:OnFocusReceived'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.16"
+      },
+      {
+        "ObjectName": "Function'WBP_Title_C:OnFinish_556333D643709F6C35D0529662EAA011'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.14"
+      },
+      {
+        "ObjectName": "Function'WBP_Title_C:OnFinish_F0089B36441A327D70DEC9A83EAD86A7'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.15"
+      },
+      {
+        "ObjectName": "Function'WBP_Title_C:BndEvt__WBP_Title_WBP_Button_Generic_Exit_K2Node_ComponentBoundEvent_0_OnPressed__DelegateSignature'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.8"
+      },
+      {
+        "ObjectName": "Function'WBP_Title_C:BndEvt__WBP_Title_WBP_Button_Generic_Start_K2Node_ComponentBoundEvent_1_OnPressed__DelegateSignature'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.10"
+      },
+      {
+        "ObjectName": "Function'WBP_Title_C:Construct'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.12"
+      },
+      {
+        "ObjectName": "Function'WBP_Title_C:BndEvt__WBP_Title_WBP_Button_Generic_Settings_K2Node_ComponentBoundEvent_2_OnPressed__DelegateSignature'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.9"
+      },
+      {
+        "ObjectName": "Function'WBP_Title_C:OnRequestTitleChange'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.18"
+      },
+      {
+        "ObjectName": "Function'WBP_Title_C:OnTitleSelected'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.19"
+      },
+      {
+        "ObjectName": "Function'WBP_Title_C:ExecuteUbergraph_WBP_Title'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.13"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Show",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BGHolder",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'NamedSlot'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BuildNumberText",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TextBlock'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DemoLabel",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TextBlock'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "EarlyAccessLabel",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TextBlock'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "InvalidVersionText",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TextBlock'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ProfileName",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TextBlock'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "VersionText",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TextBlock'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WBP_Button_Generic_Exit",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Button_Generic_C'",
+          "ObjectPath": "/Game/_Zion/UI/Common/WBP_Button_Generic.63"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WBP_Button_Generic_Settings",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Button_Generic_C'",
+          "ObjectPath": "/Game/_Zion/UI/Common/WBP_Button_Generic.63"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WBP_Button_Generic_Start",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Button_Generic_C'",
+          "ObjectPath": "/Game/_Zion/UI/Common/WBP_Button_Generic.63"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WBP_Footer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Footer_C'",
+          "ObjectPath": "/Game/_Zion/UI/Common/WBP_Footer.20"
+        }
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "Titles",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 80,
+        "PropertyFlags": "Edit | BlueprintVisible | BlueprintReadOnly",
+        "KeyProp": {
+          "Type": "EnumProperty",
+          "Name": "Titles",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": {
+            "ObjectName": "Class'EGameEndingType'",
+            "ObjectPath": "/Script/Zion"
+          },
+          "UnderlyingProp": {
+            "Type": "ByteProperty",
+            "Name": "UnderlyingType",
+            "Flags": "RF_Public",
+            "ElementSize": 1,
+            "Enum": null
+          }
+        },
+        "ValueProp": {
+          "Type": "SoftClassProperty",
+          "Name": "Titles_Value",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "PropertyClass": {
+            "ObjectName": "Class'Class'",
+            "ObjectPath": "/Script/CoreUObject"
+          },
+          "MetaClass": {
+            "ObjectName": "Class'UserWidget'",
+            "ObjectPath": "/Script/UMG"
+          }
+        }
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "TitleLevels",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 80,
+        "PropertyFlags": "Edit | BlueprintVisible | BlueprintReadOnly",
+        "KeyProp": {
+          "Type": "EnumProperty",
+          "Name": "TitleLevels",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": {
+            "ObjectName": "Class'EGameEndingType'",
+            "ObjectPath": "/Script/Zion"
+          },
+          "UnderlyingProp": {
+            "Type": "ByteProperty",
+            "Name": "UnderlyingType",
+            "Flags": "RF_Public",
+            "ElementSize": 1,
+            "Enum": null
+          }
+        },
+        "ValueProp": {
+          "Type": "SoftObjectProperty",
+          "Name": "TitleLevels_Value",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "PropertyClass": {
+            "ObjectName": "Class'World'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Footer_TitleChange",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 88,
+        "PropertyFlags": "Edit | BlueprintVisible | BlueprintReadOnly",
+        "Struct": {
+          "ObjectName": "Class'FooterData'",
+          "ObjectPath": "/Script/Zion"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LoadedLevel",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | Transient | DisableEditOnInstance | AdvancedDisplay",
+        "PropertyClass": {
+          "ObjectName": "Class'LevelStreamingDynamic'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "LoadedTitleType",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | Transient | DisableEditOnInstance | AdvancedDisplay",
+        "Enum": {
+          "ObjectName": "Class'EGameEndingType'",
+          "ObjectPath": "/Script/Zion"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SE_TitleScreenSelection",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | BlueprintReadOnly",
+        "PropertyClass": {
+          "ObjectName": "Class'FMODEvent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Title": {
+        "ObjectName": "Function'WBP_Title_C:ExecuteUbergraph_WBP_Title'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.13"
+      },
+      "OnTitleSelected": {
+        "ObjectName": "Function'WBP_Title_C:OnTitleSelected'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.19"
+      },
+      "OnRequestTitleChange": {
+        "ObjectName": "Function'WBP_Title_C:OnRequestTitleChange'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.18"
+      },
+      "BndEvt__WBP_Title_WBP_Button_Generic_Settings_K2Node_ComponentBoundEvent_2_OnPressed__DelegateSignature": {
+        "ObjectName": "Function'WBP_Title_C:BndEvt__WBP_Title_WBP_Button_Generic_Settings_K2Node_ComponentBoundEvent_2_OnPressed__DelegateSignature'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.9"
+      },
+      "Construct": {
+        "ObjectName": "Function'WBP_Title_C:Construct'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.12"
+      },
+      "BndEvt__WBP_Title_WBP_Button_Generic_Start_K2Node_ComponentBoundEvent_1_OnPressed__DelegateSignature": {
+        "ObjectName": "Function'WBP_Title_C:BndEvt__WBP_Title_WBP_Button_Generic_Start_K2Node_ComponentBoundEvent_1_OnPressed__DelegateSignature'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.10"
+      },
+      "BndEvt__WBP_Title_WBP_Button_Generic_Exit_K2Node_ComponentBoundEvent_0_OnPressed__DelegateSignature": {
+        "ObjectName": "Function'WBP_Title_C:BndEvt__WBP_Title_WBP_Button_Generic_Exit_K2Node_ComponentBoundEvent_0_OnPressed__DelegateSignature'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.8"
+      },
+      "OnFinish_F0089B36441A327D70DEC9A83EAD86A7": {
+        "ObjectName": "Function'WBP_Title_C:OnFinish_F0089B36441A327D70DEC9A83EAD86A7'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.15"
+      },
+      "OnFinish_556333D643709F6C35D0529662EAA011": {
+        "ObjectName": "Function'WBP_Title_C:OnFinish_556333D643709F6C35D0529662EAA011'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.14"
+      },
+      "OnFocusReceived": {
+        "ObjectName": "Function'WBP_Title_C:OnFocusReceived'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.16"
+      },
+      "SetupVersion": {
+        "ObjectName": "Function'WBP_Title_C:SetupVersion'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.24"
+      },
+      "SetupMenuButtons": {
+        "ObjectName": "Function'WBP_Title_C:SetupMenuButtons'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.23"
+      },
+      "RefreshUserProfile": {
+        "ObjectName": "Function'WBP_Title_C:RefreshUserProfile'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.20"
+      },
+      "SetupBG": {
+        "ObjectName": "Function'WBP_Title_C:SetupBG'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.21"
+      },
+      "SetupFooter": {
+        "ObjectName": "Function'WBP_Title_C:SetupFooter'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.22"
+      },
+      "CanChangeTitleScreen": {
+        "ObjectName": "Function'WBP_Title_C:CanChangeTitleScreen'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.11"
+      },
+      "OnPressContext": {
+        "ObjectName": "Function'WBP_Title_C:OnPressContext'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.17"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Title_C'Default__WBP_Title_C'",
+      "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.53"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Outer": "VerticalBox_Buttons",
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Wrap"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Wrap"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Title_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Title_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "/Game/_Zion/UI/Title/WBP_Title.0"
+      }
+    }
+  }
+]

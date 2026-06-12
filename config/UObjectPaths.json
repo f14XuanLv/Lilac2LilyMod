@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "ufunctions": {
+    "ClientRestart": "/Script/Engine.PlayerController:ClientRestart",
+    "BackToTitleConfirm": "/Game/_Zion/UI/Pause/WBP_Pause.WBP_Pause_C:OnBackToTitleConfirm",
+    "OnExitConfirm": "/Game/_Zion/UI/Pause/WBP_Pause.WBP_Pause_C:OnExitConfirm",
+    "TitleExitPressed": "/Game/_Zion/UI/Title/WBP_Title.WBP_Title_C:BndEvt__WBP_Title_WBP_Button_Generic_Exit_K2Node_ComponentBoundEvent_0_OnPressed__DelegateSignature",
+    "CanDisplayCostumeData": "/Game/_Zion/UI/RestMenu/Extra/WBP_Extra_Costume.WBP_Extra_Costume_C:CanDisplayCostumeData",
+    "IsCostumeOwned": "/Game/_Zion/UI/RestMenu/Extra/WBP_Extra_CostumeEntry.WBP_Extra_CostumeEntry_C:IsCostumeOwned",
+    "SpineSkeletonAnimationComponent_SetAnimation": "/Script/SpinePlugin.SpineSkeletonAnimationComponent:SetAnimation",
+    "SpineSkeletonAnimationComponent_AddAnimation": "/Script/SpinePlugin.SpineSkeletonAnimationComponent:AddAnimation",
+    "SpineWidget_SetAnimation": "/Script/SpinePlugin.SpineWidget:SetAnimation",
+    "SpineWidget_AddAnimation": "/Script/SpinePlugin.SpineWidget:AddAnimation",
+    "SpineSkeletonAnimationExComponent_ReplaceSpineData": "/Script/SpineExtension.SpineSkeletonAnimationExComponent:ReplaceSpineData",
+    "Kismet_GetCurrentCulture": "/Script/Engine.KismetInternationalizationLibrary:GetCurrentCulture",
+    "AssetRegistry_GetAssetRegistry": "/Script/AssetRegistry.AssetRegistryHelpers:GetAssetRegistry",
+    "AssetRegistry_GetAsset": "/Script/AssetRegistry.AssetRegistryHelpers:GetAsset",
+    "AssetRegistry_GetAssetByObjectPath": "/Script/AssetRegistry.AssetRegistry:GetAssetByObjectPath"
+  },
+  "classes": {
+    "LilacActorClassName": "BP_p0000_Lilac_C",
+    "CostumeEntryClass": "/Game/_Zion/UI/RestMenu/Extra/WBP_Extra_CostumeEntry.WBP_Extra_CostumeEntry_C"
+  },
+  "objects": {
+    "ItemCostumesDataTable": "/Game/_Zion/Gameplay/Data/DT_ItemCostumes.DT_ItemCostumes",
+    "KismetInternationalizationLibraryDefault": "/Script/Engine.Default__KismetInternationalizationLibrary",
+    "AssetRegistryHelpersDefault": "/Script/AssetRegistry.Default__AssetRegistryHelpers",
+    "AssetRegistryDefault": "/Script/AssetRegistry.Default__AssetRegistryImpl",
+    "ModForgeOuter": "/Engine/Transient",
+    "CostumePaperSpriteTemplate": "/Game/_Zion/UI/Atlases/Costumes/SPR_Img_Costume_p0000.SPR_Img_Costume_p0000",
+    "CostumeTexture2DTemplate": "/Game/_Zion/UI/Atlases/Costumes/Textures/ATLAS_Costumes.ATLAS_Costumes",
+    "LilySpineTexture2DTemplate": "/Game/_Zion/Characters/p0000_Lilac/Spine/Textures/p0000_lilac.p0000_lilac",
+    "LilySpineAtlasTemplate": "/Game/_Zion/Characters/p0000_Lilac/Spine/p0000_lilac-atlas.p0000_lilac-atlas",
+    "LilySpineSkeletonDataTemplate": "/Game/_Zion/Characters/p0000_Lilac/Spine/p0000_lilac-data.p0000_lilac-data"
+  },
+  "assets": {
+    "ForgedLilyAtlasPackage": "/Engine/Transient",
+    "ForgedLilyAtlasAsset": "p0101_Lily-atlas",
+    "ForgedLilySkeletonPackage": "/Engine/Transient",
+    "ForgedLilySkeletonAsset": "p0101_Lily-data",
+    "LilyIconPackage": "/Game/Mods/Lilac2LilyMod/UI/Costumes/SPR_Img_Costume_p0101_Lily",
+    "LilyIconAsset": "SPR_Img_Costume_p0101_Lily",
+    "ForgedLilyIconPackage": "/Engine/Transient",
+    "ForgedLilyIconAsset": "SPR_Img_Costume_p0101"
+  },
+  "names": {
+    "LilacCostumeRow": "p0000",
+    "LilyCostumeRow": "p0101",
+    "LilyAssetMarker": "p0101_Lily",
+    "CostumePaperSpriteForgeName": "SPR_Img_Costume_p0101",
+    "CostumeTexture2DForgeName": "T_Img_Costume_p0101",
+    "LilySpineTexture2DForgeName": "p0101_Lily",
+    "LilySpineAtlasForgeName": "p0101_Lily-atlas",
+    "LilySpineSkeletonDataForgeName": "p0101_Lily-data"
+  }
+}

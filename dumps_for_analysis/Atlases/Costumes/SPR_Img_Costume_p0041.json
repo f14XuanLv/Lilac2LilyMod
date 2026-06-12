@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "PaperSprite",
+    "Name": "SPR_Img_Costume_p0041",
+    "Class": "UScriptClass'PaperSprite'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BakedSourceUV": {
+        "X": 2414.0,
+        "Y": 806.0
+      },
+      "BakedSourceDimension": {
+        "X": 800.0,
+        "Y": 800.0
+      },
+      "BakedSourceTexture": {
+        "ObjectName": "Texture2D'ATLAS_Costumes'",
+        "ObjectPath": "/Game/_Zion/UI/Atlases/Costumes/Textures/ATLAS_Costumes.0"
+      },
+      "SpriteCollisionDomain": "ESpriteCollisionMode::None",
+      "BakedRenderData": [
+        {
+          "X": 57.03125,
+          "Y": 141.40625,
+          "Z": 0.72265625,
+          "W": 0.20605469
+        },
+        {
+          "X": -58.984375,
+          "Y": 141.40625,
+          "Z": 0.6501465,
+          "W": 0.20605469
+        },
+        {
+          "X": -58.984375,
+          "Y": -141.01562,
+          "Z": 0.6501465,
+          "W": 0.38256836
+        },
+        {
+          "X": 57.03125,
+          "Y": -141.01562,
+          "Z": 0.72265625,
+          "W": 0.38256836
+        },
+        {
+          "X": 57.03125,
+          "Y": 141.40625,
+          "Z": 0.72265625,
+          "W": 0.20605469
+        },
+        {
+          "X": -58.984375,
+          "Y": -141.01562,
+          "Z": 0.6501465,
+          "W": 0.38256836
+        }
+      ]
+    }
+  }
+]
