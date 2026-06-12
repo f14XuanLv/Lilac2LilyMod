@@ -1,0 +1,8 @@
+# Assets required by the project but not useful for textual diff
+assets/p0101_Lily.png filter=lfs diff=lfs merge=lfs -text
+assets/T_Img_Costume_p0101.png filter=lfs diff=lfs merge=lfs -text
+assets/p0101_Lily-data.skel filter=lfs diff=lfs merge=lfs -text
+
+# UE4SS SDK binary payloads required for build/runtime
+third_party/ue4ss-sdk/bin/** filter=lfs diff=lfs merge=lfs -text
+third_party/ue4ss-sdk/lib/** filter=lfs diff=lfs merge=lfs -text
