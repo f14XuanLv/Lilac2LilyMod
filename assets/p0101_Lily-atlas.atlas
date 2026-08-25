@@ -1,776 +1,365 @@
-
 p0101_Lily.png
-size: 2048,512
-format: RGBA8888
-filter: Linear, Linear
-repeat: none
+size:1016,1032
+filter:Linear,Linear
 _common/white
-  rotate: false
-  xy: 23, 365
-  size: 10, 10
-  orig: 10, 10
-  offset: 0, 0
-  index: -1
+bounds:480,35,10,10
 p0101_Lily/Amulet
-  rotate: false
-  xy: 2, 336
-  size: 25, 40
-  orig: 31, 44
-  offset: 3, 2
-  index: -1
+bounds:714,59,31,44
 p0101_Lily/Bust_00_D1
-  rotate: false
-  xy: 1614, 246
-  size: 101, 130
-  orig: 105, 134
-  offset: 3, 0
-  index: -1
+bounds:896,898,105,134
 p0101_Lily/Bust_00_D3
-  rotate: false
-  xy: 1395, 257
-  size: 114, 120
-  orig: 116, 120
-  offset: 1, 0
-  index: -1
+bounds:739,750,116,120
 p0101_Lily/Bust_01_D1
-  rotate: false
-  xy: 1509, 248
-  size: 103, 128
-  orig: 105, 130
-  offset: 2, 0
-  index: -1
+bounds:215,563,105,130
 p0101_Lily/Face_00_D1
-  rotate: false
-  xy: 1499, 66
-  size: 63, 57
-  orig: 66, 57
-  offset: 3, 0
-  index: -1
+bounds:528,242,66,57
 p0101_Lily/Face_01_D1
-  rotate: false
-  xy: 1730, 65
-  size: 63, 57
-  orig: 66, 57
-  offset: 3, 0
-  index: -1
+bounds:596,241,66,57
 p0101_Lily/Face_02_D1
-  rotate: false
-  xy: 1339, 63
-  size: 63, 57
-  orig: 66, 57
-  offset: 3, 0
-  index: -1
+bounds:596,182,66,57
 p0101_Lily/Face_03_D1
-  rotate: false
-  xy: 836, 62
-  size: 63, 57
-  orig: 66, 57
-  offset: 3, 0
-  index: -1
+bounds:664,227,66,57
 p0101_Lily/Face_04_D1
-  rotate: false
-  xy: 669, 59
-  size: 63, 57
-  orig: 66, 57
-  offset: 3, 0
-  index: -1
+bounds:664,168,66,57
 p0101_Lily/Face_05_D1
-  rotate: false
-  xy: 889, 95
-  size: 77, 60
-  orig: 80, 60
-  offset: 2, 0
-  index: -1
+bounds:844,474,80,60
 p0101_Lily/Face_06_D1
-  rotate: false
-  xy: 433, 92
-  size: 77, 60
-  orig: 80, 60
-  offset: 2, 0
-  index: -1
+bounds:926,456,80,60
 p0101_Lily/Face_07_D1
-  rotate: false
-  xy: 307, 79
-  size: 76, 60
-  orig: 79, 60
-  offset: 2, 0
-  index: -1
+bounds:337,237,79,60
 p0101_Lily/Face_08_D1
-  rotate: false
-  xy: 730, 81
-  size: 77, 60
-  orig: 80, 60
-  offset: 2, 0
-  index: -1
+bounds:844,412,80,60
 p0101_Lily/Face_09_D1
-  rotate: false
-  xy: 1858, 80
-  size: 77, 60
-  orig: 80, 60
-  offset: 2, 0
-  index: -1
+bounds:926,394,80,60
 p0101_Lily/Foot_L_00_D1
-  rotate: false
-  xy: 1579, 30
-  size: 55, 69
-  orig: 58, 71
-  offset: 2, 2
-  index: -1
+bounds:94,7,58,71
 p0101_Lily/Foot_L_00_D2
-  rotate: false
-  xy: 1822, 29
-  size: 64, 55
-  orig: 64, 57
-  offset: 0, 0
-  index: -1
+bounds:394,154,64,57
 p0101_Lily/Foot_L_00_D3
-  rotate: false
-  xy: 1247, 68
-  size: 68, 60
-  orig: 71, 62
-  offset: 1, 0
-  index: -1
+bounds:321,173,71,62
 p0101_Lily/Foot_L_01_D1
-  rotate: false
-  xy: 258, 29
-  size: 39, 81
-  orig: 42, 86
-  offset: 2, 4
-  index: -1
+bounds:690,286,42,86
 p0101_Lily/Foot_L_01_D3
-  rotate: false
-  xy: 1802, 83
-  size: 55, 88
-  orig: 57, 90
-  offset: 1, 0
-  index: -1
+bounds:646,472,57,90
 p0101_Lily/Foot_R_00_D1
-  rotate: false
-  xy: 899, 24
-  size: 50, 70
-  orig: 52, 73
-  offset: 1, 3
-  index: -1
+bounds:790,406,52,73
 p0101_Lily/Foot_R_00_D2
-  rotate: false
-  xy: 439, 34
-  size: 64, 57
-  orig: 64, 58
-  offset: 0, 0
-  index: -1
+bounds:279,71,64,58
 p0101_Lily/Foot_R_00_D3
-  rotate: false
-  xy: 360, 36
-  size: 50, 56
-  orig: 56, 60
-  offset: 2, 1
-  index: -1
+bounds:452,90,56,60
 p0101_Lily/Foot_R_01_D1
-  rotate: false
-  xy: 1179, 35
-  size: 49, 78
-  orig: 53, 85
-  offset: 2, 5
-  index: -1
+bounds:734,306,53,85
 p0101_Lily/Foot_R_01_D3
-  rotate: false
-  xy: 1094, 41
-  size: 40, 82
-  orig: 45, 87
-  offset: 2, 2
-  index: -1
+bounds:418,213,45,87
 p0101_Lily/Hair_B2_00_D1
-  rotate: false
-  xy: 1311, 64
-  size: 84, 312
-  orig: 87, 316
-  offset: 3, 0
-  index: -1
+bounds:0,366,87,316
 p0101_Lily/Hair_B_00_D1
-  rotate: false
-  xy: 2, 31
-  size: 156, 345
-  orig: 161, 348
-  offset: 3, 0
-  index: -1
+bounds:0,684,161,348
 p0101_Lily/Hair_B_00_D3
-  rotate: false
-  xy: 156, 66
-  size: 164, 311
-  orig: 166, 337
-  offset: 2, 3
-  index: -1
+bounds:163,695,166,337
 p0101_Lily/Hair_F_00_D1
-  rotate: false
-  xy: 1939, 206
-  size: 107, 88
-  orig: 109, 93
-  offset: 2, 2
-  index: -1
+bounds:481,574,109,93
 p0101_Lily/Hair_F_00_D3
-  rotate: false
-  xy: 1386, 174
-  size: 108, 89
-  orig: 108, 92
-  offset: 0, 1
-  index: -1
+bounds:734,549,108,92
 p0101_Lily/Hair_L_00_D1
-  rotate: false
-  xy: 1869, 237
-  size: 82, 139
-  orig: 88, 142
-  offset: 3, 1
-  index: -1
+bounds:0,222,88,142
 p0101_Lily/Hair_L_00_D3
-  rotate: false
-  xy: 1254, 116
-  size: 65, 124
-  orig: 65, 127
-  offset: 0, 0
-  index: -1
+bounds:860,625,65,127
 p0101_Lily/Hair_R_00_D1
-  rotate: false
-  xy: 1714, 245
-  size: 84, 131
-  orig: 87, 131
-  offset: 3, 0
-  index: -1
+bounds:174,382,87,131
 p0101_Lily/Hair_R_00_D3
-  rotate: false
-  xy: 1795, 235
-  size: 79, 141
-  orig: 83, 141
-  offset: 4, 0
-  index: -1
+bounds:89,372,83,141
 p0101_Lily/Hand_L_00_D1
-  rotate: false
-  xy: 1498, 13
-  size: 37, 52
-  orig: 42, 55
-  offset: 2, 1
-  index: -1
+bounds:623,90,42,55
 p0101_Lily/Hand_L_00_D3
-  rotate: false
-  xy: 632, 54
-  size: 36, 54
-  orig: 39, 59
-  offset: 2, 2
-  index: -1
+bounds:789,312,39,59
 p0101_Lily/Hand_L_01_D1
-  rotate: false
-  xy: 1143, 16
-  size: 39, 68
-  orig: 43, 71
-  offset: 4, 0
-  index: -1
+bounds:154,0,43,71
 p0101_Lily/Hand_L_01_D3
-  rotate: false
-  xy: 1148, 261
-  size: 38, 63
-  orig: 43, 68
-  offset: 3, 3
-  index: -1
+bounds:244,1,43,68
 p0101_Lily/Hand_L_02_D1
-  rotate: false
-  xy: 662, 29
-  size: 66, 29
-  orig: 69, 33
-  offset: 3, 1
-  index: -1
+bounds:263,382,69,33
 p0101_Lily/Hand_L_02_D3
-  rotate: false
-  xy: 1321, 30
-  size: 70, 32
-  orig: 70, 37
-  offset: 0, 2
-  index: -1
+bounds:465,203,70,37
 p0101_Lily/Hand_L_03_D1
-  rotate: false
-  xy: 1227, 18
-  size: 54, 61
-  orig: 56, 66
-  offset: 2, 3
-  index: -1
+bounds:786,481,56,66
 p0101_Lily/Hand_L_03_D3
-  rotate: false
-  xy: 992, 15
-  size: 48, 52
-  orig: 53, 57
-  offset: 3, 3
-  index: -1
+bounds:510,90,53,57
 p0101_Lily/Hand_R_00_D1
-  rotate: false
-  xy: 342, 138
-  size: 37, 54
-  orig: 39, 57
-  offset: 2, 1
-  index: -1
+bounds:830,314,39,57
 p0101_Lily/Hand_R_00_D3
-  rotate: false
-  xy: 130, 323
-  size: 34, 54
-  orig: 38, 57
-  offset: 0, 2
-  index: -1
+bounds:871,314,38,57
 p0101_Lily/Hand_R_01_D1
-  rotate: false
-  xy: 100, 18
-  size: 35, 62
-  orig: 43, 69
-  offset: 5, 4
-  index: -1
+bounds:199,0,43,69
 p0101_Lily/Hand_R_01_D3
-  rotate: false
-  xy: 1308, 241
-  size: 36, 62
-  orig: 38, 68
-  offset: 1, 3
-  index: -1
+bounds:408,17,38,68
 p0101_Lily/Hand_R_02_D1
-  rotate: false
-  xy: 203, 18
-  size: 56, 27
-  orig: 59, 33
-  offset: 0, 4
-  index: -1
+bounds:583,147,59,33
 p0101_Lily/Hand_R_02_D3
-  rotate: false
-  xy: 1070, 17
-  size: 54, 25
-  orig: 57, 31
-  offset: 3, 3
-  index: -1
+bounds:790,373,57,31
 p0101_Lily/Hand_R_03_D1
-  rotate: false
-  xy: 1280, 10
-  size: 41, 58
-  orig: 45, 62
-  offset: 1, 2
-  index: -1
+bounds:667,104,45,62
 p0101_Lily/Hand_R_03_D3
-  rotate: false
-  xy: 1549, 18
-  size: 50, 53
-  orig: 51, 58
-  offset: 1, 2
-  index: -1
+bounds:345,71,51,58
 p0101_Lily/Head_00_D1
-  rotate: false
-  xy: 830, 218
-  size: 174, 158
-  orig: 182, 160
-  offset: 8, 1
-  index: -1
+bounds:712,872,182,160
 p0101_Lily/Head_00_D3
-  rotate: false
-  xy: 661, 215
-  size: 170, 161
-  orig: 173, 164
-  offset: 2, 0
-  index: -1
+bounds:511,669,173,164
 p0101_Lily/Hip_00_D1
-  rotate: false
-  xy: 1828, 160
-  size: 90, 99
-  orig: 96, 103
-  offset: 3, 2
-  index: -1
+bounds:592,564,96,103
 p0101_Lily/Hip_00_D3
-  rotate: false
-  xy: 1108, 166
-  size: 100, 94
-  orig: 102, 98
-  offset: 2, 2
-  index: -1
+bounds:364,490,102,98
 p0101_Lily/Lowarm_L_00_D1
-  rotate: false
-  xy: 958, 12
-  size: 34, 103
-  orig: 36, 104
-  offset: 0, 1
-  index: -1
+bounds:256,276,36,104
 p0101_Lily/Lowarm_L_00_D3
-  rotate: false
-  xy: 808, 6
-  size: 38, 94
-  orig: 40, 94
-  offset: 1, 0
-  index: -1
+bounds:279,131,40,94
 p0101_Lily/Lowarm_L_01_D1
-  rotate: false
-  xy: 1705, 31
-  size: 61, 36
-  orig: 61, 40
-  offset: 0, 2
-  index: -1
+bounds:321,131,61,40
 p0101_Lily/Lowarm_L_01_D3
-  rotate: false
-  xy: 792, 336
-  size: 60, 40
-  orig: 60, 41
-  offset: 0, 1
-  index: -1
+bounds:521,149,60,41
 p0101_Lily/Lowarm_R_00_D1
-  rotate: false
-  xy: 1642, 7
-  size: 39, 99
-  orig: 41, 100
-  offset: 1, 0
-  index: -1
+bounds:294,280,41,100
 p0101_Lily/Lowarm_R_00_D3
-  rotate: false
-  xy: 2015, 17
-  size: 32, 96
-  orig: 36, 96
-  offset: 3, 0
-  index: -1
+bounds:694,374,36,96
 p0101_Lily/Lowarm_R_01_D1
-  rotate: false
-  xy: 1938, 19
-  size: 50, 35
-  orig: 54, 37
-  offset: 2, 1
-  index: -1
+bounds:840,275,54,37
 p0101_Lily/Lowarm_R_01_D3
-  rotate: false
-  xy: 855, 27
-  size: 53, 35
-  orig: 55, 37
-  offset: 2, 0
-  index: -1
+bounds:849,373,55,37
 p0101_Lily/Lowleg_L_00_D1
-  rotate: false
-  xy: 640, 106
-  size: 55, 142
-  orig: 56, 149
-  offset: 1, 5
-  index: -1
+bounds:166,73,56,149
 p0101_Lily/Lowleg_L_00_D3
-  rotate: false
-  xy: 805, 104
-  size: 50, 152
-  orig: 53, 154
-  offset: 3, 2
-  index: -1
+bounds:224,71,53,154
 p0101_Lily/Lowleg_L_01_D1
-  rotate: false
-  xy: 1432, 76
-  size: 55, 96
-  orig: 56, 96
-  offset: 1, 0
-  index: -1
+bounds:407,302,56,96
 p0101_Lily/Lowleg_L_01_D3
-  rotate: false
-  xy: 375, 105
-  size: 92, 86
-  orig: 94, 86
-  offset: 2, 0
-  index: -1
+bounds:468,486,94,86
 p0101_Lily/Lowleg_R_00_D1
-  rotate: false
-  xy: 1701, 103
-  size: 50, 144
-  orig: 56, 144
-  offset: 4, 0
-  index: -1
+bounds:263,417,56,144
 p0101_Lily/Lowleg_R_00_D3
-  rotate: false
-  xy: 1553, 94
-  size: 50, 153
-  orig: 51, 155
-  offset: 0, 0
-  index: -1
+bounds:686,678,51,155
 p0101_Lily/Lowleg_R_01_D1
-  rotate: false
-  xy: 1035, 94
-  size: 88, 81
-  orig: 90, 85
-  offset: 0, 2
-  index: -1
+bounds:926,518,90,85
 p0101_Lily/Lowleg_R_01_D3
-  rotate: false
-  xy: 1133, 84
-  size: 55, 84
-  orig: 56, 86
-  offset: 0, 1
-  index: -1
+bounds:732,393,56,86
 p0101_Lily/Meat_Head_L_0_D1
-  rotate: false
-  xy: 1041, 27
-  size: 53, 58
-  orig: 63, 64
-  offset: 5, 3
-  index: -1
+bounds:289,5,63,64
 p0101_Lily/Meat_Head_L_0_D3
-  rotate: false
-  xy: 784, 25
-  size: 25, 58
-  orig: 30, 61
-  offset: 3, 1
-  index: -1
+bounds:714,105,30,61
 p0101_Lily/Meat_Head_R_0_D1
-  rotate: false
-  xy: 142, 4
-  size: 28, 57
-  orig: 32, 61
-  offset: 2, 2
-  index: -1
+bounds:765,243,32,61
 p0101_Lily/Meat_Head_R_0_D3
-  rotate: false
-  xy: 171, 28
-  size: 58, 60
-  orig: 61, 63
-  offset: 2, 0
-  index: -1
+bounds:465,242,61,63
 p0101_Lily/Mouth_00_D1
-  rotate: false
-  xy: 166, 357
-  size: 18, 19
-  orig: 20, 20
-  offset: 2, 0
-  index: -1
+bounds:712,850,20,20
 p0101_Lily/Neck_00_D1
-  rotate: false
-  xy: 1401, 29
-  size: 52, 65
-  orig: 52, 66
-  offset: 0, 1
-  index: -1
+bounds:354,3,52,66
 p0101_Lily/Neck_00_D3
-  rotate: false
-  xy: 541, 25
-  size: 49, 65
-  orig: 52, 65
-  offset: 2, 0
-  index: -1
-p0101_Lily/Ribbon_00_D1
-  rotate: false
-  xy: 511, 22
-  size: 28, 95
-  orig: 37, 103
-  offset: 4, 3
-  index: -1
+bounds:398,87,52,65
 p0101_Lily/Ribbon_01_D1
-  rotate: false
-  xy: 595, 38
-  size: 48, 144
-  orig: 51, 148
-  offset: 1, 1
-  index: -1
+bounds:90,222,51,148
 p0101_Lily/Skirt_00_D1
-  rotate: false
-  xy: 499, 182
-  size: 182, 194
-  orig: 182, 197
-  offset: 0, 0
-  index: -1
+bounds:528,835,182,197
 p0101_Lily/Skirt_00_D1_B
-  rotate: false
-  xy: 1166, 240
-  size: 162, 136
-  orig: 164, 140
-  offset: 1, 2
-  index: -1
+bounds:0,80,164,140
 p0101_Lily/Skirt_00_D3
-  rotate: false
-  xy: 308, 182
-  size: 195, 194
-  orig: 195, 194
-  offset: 0, 0
-  index: -1
+bounds:331,838,195,194
 p0101_Lily/Skirt_00_D3_B
-  rotate: false
-  xy: 987, 240
-  size: 176, 136
-  orig: 178, 137
-  offset: 2, 1
-  index: -1
+bounds:331,699,178,137
 p0101_Lily/Sleeve_L_00_D1
-  rotate: false
-  xy: 850, 124
-  size: 69, 96
-  orig: 74, 100
-  offset: 3, 0
-  index: -1
+bounds:927,707,74,100
 p0101_Lily/Sleeve_L_00_D3
-  rotate: false
-  xy: 1977, 109
-  size: 69, 97
-  orig: 74, 100
-  offset: 2, 1
-  index: -1
+bounds:927,605,74,100
 p0101_Lily/Sleeve_L_01_D1
-  rotate: false
-  xy: 993, 68
-  size: 78, 84
-  orig: 80, 87
-  offset: 2, 1
-  index: -1
+bounds:844,536,80,87
 p0101_Lily/Sleeve_L_01_D1_B
-  rotate: false
-  xy: 700, 132
-  size: 87, 84
-  orig: 92, 87
-  offset: 1, 1
-  index: -1
+bounds:924,809,92,87
 p0101_Lily/Sleeve_L_01_D3
-  rotate: false
-  xy: 1934, 51
-  size: 78, 84
-  orig: 80, 87
-  offset: 0, 0
-  index: -1
+bounds:564,475,80,87
 p0101_Lily/Sleeve_L_01_D3_B
-  rotate: false
-  xy: 918, 137
-  size: 88, 86
-  orig: 91, 88
-  offset: 1, 0
-  index: -1
+bounds:361,400,91,88
 p0101_Lily/Sleeve_R_00_D1
-  rotate: false
-  xy: 1370, 94
-  size: 66, 89
-  orig: 72, 94
-  offset: 4, 2
-  index: -1
+bounds:465,307,72,94
 p0101_Lily/Sleeve_R_00_D3
-  rotate: false
-  xy: 534, 92
-  size: 67, 92
-  orig: 72, 94
-  offset: 3, 0
-  index: -1
+bounds:620,376,72,94
 p0101_Lily/Sleeve_R_01_D1
-  rotate: false
-  xy: 1954, 294
-  size: 72, 82
-  orig: 75, 85
-  offset: 1, 0
-  index: -1
+bounds:539,301,75,85
 p0101_Lily/Sleeve_R_01_D3
-  rotate: false
-  xy: 1603, 94
-  size: 69, 81
-  orig: 76, 85
-  offset: 4, 1
-  index: -1
+bounds:542,388,76,85
 p0101_Lily/Uparm_L_00_D1
-  rotate: false
-  xy: 122, 51
-  size: 34, 111
-  orig: 40, 111
-  offset: 2, 0
-  index: -1
+bounds:322,582,40,111
 p0101_Lily/Uparm_L_00_D3
-  rotate: false
-  xy: 411, 12
-  size: 34, 99
-  orig: 38, 99
-  offset: 4, 0
-  index: -1
+bounds:321,417,38,99
 p0101_Lily/Uparm_L_01_D1
-  rotate: false
-  xy: 726, 37
-  size: 61, 44
-  orig: 61, 47
-  offset: 0, 1
-  index: -1
+bounds:256,227,61,47
 p0101_Lily/Uparm_L_01_D3
-  rotate: false
-  xy: 296, 33
-  size: 57, 48
-  orig: 57, 48
-  offset: 0, 0
-  index: -1
+bounds:537,192,57,48
 p0101_Lily/Uparm_R_00_D1
-  rotate: false
-  xy: 1671, 45
-  size: 37, 104
-  orig: 42, 108
-  offset: 3, 2
-  index: -1
+bounds:690,568,42,108
 p0101_Lily/Uparm_R_00_D3
-  rotate: false
-  xy: 1471, 11
-  size: 27, 90
-  orig: 31, 91
-  offset: 1, 0
-  index: -1
+bounds:732,193,31,91
 p0101_Lily/Uparm_R_01_D1
-  rotate: false
-  xy: 1773, 28
-  size: 56, 43
-  orig: 56, 45
-  offset: 0, 2
-  index: -1
+bounds:565,100,56,45
 p0101_Lily/Uparm_R_01_D3
-  rotate: false
-  xy: 1887, 26
-  size: 59, 49
-  orig: 59, 49
-  offset: 0, 0
-  index: -1
+bounds:460,152,59,49
 p0101_Lily/Upleg_L_00_D1
-  rotate: false
-  xy: 465, 139
-  size: 56, 167
-  orig: 60, 167
-  offset: 0, 0
-  index: -1
+bounds:89,515,60,167
 p0101_Lily/Upleg_L_00_D3
-  rotate: false
-  xy: 285, 111
-  size: 59, 150
-  orig: 62, 152
-  offset: 1, 2
-  index: -1
+bounds:151,515,62,152
 p0101_Lily/Upleg_L_01_D1
-  rotate: false
-  xy: 1911, 113
-  size: 61, 114
-  orig: 65, 116
-  offset: 3, 1
-  index: -1
+bounds:857,754,65,116
 p0101_Lily/Upleg_L_01_D3
-  rotate: false
-  xy: 978, 157
-  size: 118, 104
-  orig: 119, 105
-  offset: 0, 0
-  index: -1
+bounds:739,643,119,105
 p0101_Lily/Upleg_R_00_D1
-  rotate: false
-  xy: 1487, 112
-  size: 56, 152
-  orig: 57, 153
-  offset: 1, 1
-  index: -1
+bounds:197,227,57,153
 p0101_Lily/Upleg_R_00_D3
-  rotate: false
-  xy: 1758, 110
-  size: 50, 145
-  orig: 52, 146
-  offset: 2, 1
-  index: -1
+bounds:143,224,52,146
 p0101_Lily/Upleg_R_01_D1
-  rotate: false
-  xy: 1592, 163
-  size: 114, 104
-  orig: 115, 107
-  offset: 1, 2
-  index: -1
+bounds:364,590,115,107
 p0101_Lily/Upleg_R_01_D3
-  rotate: false
-  xy: 1188, 110
-  size: 65, 97
-  orig: 68, 99
-  offset: 2, 2
-  index: -1
+bounds:337,299,68,99
 p0101_Lily/teardrop
-  rotate: false
-  xy: 185, 365
-  size: 10, 10
-  orig: 10, 10
-  offset: 0, 0
-  index: -1
+bounds:492,35,10,10
+wirer/n5220_wirer/arm1_L_01_d1
+bounds:938,151,30,31
+wirer/n5220_wirer/arm1_L_01_d2
+bounds:918,2,30,31
+wirer/n5220_wirer/arm1_R_01_d1
+bounds:661,1,31,32
+wirer/n5220_wirer/arm1_R_01_d2
+bounds:949,39,31,31
+wirer/n5220_wirer/arm2_L_01_d1
+bounds:709,15,39,42
+wirer/n5220_wirer/arm2_L_01_d2
+bounds:896,272,31,40
+wirer/n5220_wirer/arm2_R_01_d1
+bounds:894,181,36,41
+wirer/n5220_wirer/arm2_R_01_d2
+bounds:750,28,32,40
+wirer/n5220_wirer/arm3_L_01_d1
+bounds:819,37,30,38
+wirer/n5220_wirer/arm3_L_01_d2
+bounds:851,0,32,37
+wirer/n5220_wirer/arm3_R_01_d1
+bounds:970,150,35,37
+wirer/n5220_wirer/arm3_R_01_d2
+bounds:850,79,33,37
+wirer/n5220_wirer/arm4_L_01_d1
+bounds:954,72,27,37
+wirer/n5220_wirer/arm4_L_01_d2
+bounds:987,312,29,37
+wirer/n5220_wirer/arm4_R_01_d1
+bounds:987,273,29,37
+wirer/n5220_wirer/arm4_R_01_d2
+bounds:918,35,29,37
+wirer/n5220_wirer/eye_01_d1
+bounds:894,153,42,26
+wirer/n5220_wirer/eye_01_d2
+bounds:840,247,51,26
+wirer/n5220_wirer/eyelight_01_d1
+bounds:664,35,43,27
+wirer/n5220_wirer/eyelight_01_d2
+bounds:565,72,51,26
+wirer/n5220_wirer/head_01_d1
+bounds:705,481,79,66
+wirer/n5220_wirer/head_01_d2
+bounds:616,300,72,74
+wirer/n5220_wirer/hip_01_d1
+bounds:0,2,92,76
+wirer/n5220_wirer/hip_01_d2
+bounds:454,403,86,81
+wirer/n5220_wirer/leg1_1_L_01_d1
+bounds:448,0,33,33
+wirer/n5220_wirer/leg1_1_L_01_d2
+bounds:562,36,34,34
+wirer/n5220_wirer/leg1_1_R_01_d1
+bounds:483,0,33,33
+wirer/n5220_wirer/leg1_1_R_01_d2
+bounds:588,0,33,34
+wirer/n5220_wirer/leg1_2_L_01_d1
+bounds:765,194,45,47
+wirer/n5220_wirer/leg1_2_L_01_d2
+bounds:667,64,45,38
+wirer/n5220_wirer/leg1_2_R_01_d1
+bounds:930,228,34,45
+wirer/n5220_wirer/leg1_2_R_01_d2
+bounds:618,50,44,38
+wirer/n5220_wirer/leg1_3_L_01_d1
+bounds:524,45,36,43
+wirer/n5220_wirer/leg1_3_L_01_d2
+bounds:853,156,39,42
+wirer/n5220_wirer/leg1_3_R_01_d1
+bounds:894,224,34,46
+wirer/n5220_wirer/leg1_3_R_01_d2
+bounds:955,351,40,41
+wirer/n5220_wirer/leg1_4_L_01_d1
+bounds:819,159,32,38
+wirer/n5220_wirer/leg1_4_L_01_d2
+bounds:779,114,31,40
+wirer/n5220_wirer/leg1_4_R_01_d1
+bounds:955,111,29,37
+wirer/n5220_wirer/leg1_4_R_01_d2
+bounds:746,113,31,41
+wirer/n5220_wirer/leg2_1_L_01_d1
+bounds:555,0,31,33
+wirer/n5220_wirer/leg2_1_L_01_d2
+bounds:765,156,36,36
+wirer/n5220_wirer/leg2_1_R_01_d1
+bounds:819,3,30,32
+wirer/n5220_wirer/leg2_1_R_01_d2
+bounds:848,118,35,36
+wirer/n5220_wirer/leg2_2_L_01_d1
+bounds:799,263,39,47
+wirer/n5220_wirer/leg2_2_L_01_d2
+bounds:944,309,41,40
+wirer/n5220_wirer/leg2_2_R_01_d1
+bounds:812,199,39,46
+wirer/n5220_wirer/leg2_2_R_01_d2
+bounds:966,231,41,40
+wirer/n5220_wirer/leg2_3_L_01_d1
+bounds:518,0,35,43
+wirer/n5220_wirer/leg2_3_L_01_d2
+bounds:970,189,35,40
+wirer/n5220_wirer/leg2_3_R_01_d1
+bounds:853,200,39,45
+wirer/n5220_wirer/leg2_3_R_01_d2
+bounds:932,184,36,42
+wirer/n5220_wirer/leg2_4_L_01_d1
+bounds:851,39,32,38
+wirer/n5220_wirer/leg2_4_L_01_d2
+bounds:922,112,31,37
+wirer/n5220_wirer/leg2_4_R_01_d1
+bounds:784,31,33,39
+wirer/n5220_wirer/leg2_4_R_01_d2
+bounds:922,74,30,36
+wirer/n5220_wirer/leg3_1_L_01_d1
+bounds:929,275,31,32
+wirer/n5220_wirer/leg3_1_L_01_d2
+bounds:885,115,35,36
+wirer/n5220_wirer/leg3_1_R_01_d1
+bounds:885,3,31,32
+wirer/n5220_wirer/leg3_1_R_01_d2
+bounds:885,77,35,36
+wirer/n5220_wirer/leg3_2_L_01_d1
+bounds:623,3,36,45
+wirer/n5220_wirer/leg3_2_L_01_d2
+bounds:480,47,42,41
+wirer/n5220_wirer/leg3_2_R_01_d1
+bounds:215,516,46,45
+wirer/n5220_wirer/leg3_2_R_01_d2
+bounds:911,351,42,41
+wirer/n5220_wirer/leg3_3_L_01_d1
+bounds:885,37,31,38
+wirer/n5220_wirer/leg3_3_L_01_d2
+bounds:812,118,34,39
+wirer/n5220_wirer/leg3_3_R_01_d1
+bounds:322,538,40,42
+wirer/n5220_wirer/leg3_3_R_01_d2
+bounds:815,77,33,39
+wirer/n5220_wirer/leg3_4_L_01_d1
+bounds:747,70,31,41
+wirer/n5220_wirer/leg3_4_L_01_d2
+bounds:448,35,30,35
+wirer/n5220_wirer/leg3_4_R_01_d1
+bounds:780,72,33,40
+wirer/n5220_wirer/leg3_4_R_01_d2
+bounds:911,315,31,34
