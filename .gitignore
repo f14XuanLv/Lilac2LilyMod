@@ -1,0 +1,9 @@
+# CMake/Visual Studio build output
+build/
+.vs/
+
+# CMake FetchContent working tree
+_build/
+
+# Local runtime/log files
+*.log

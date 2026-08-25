@@ -1,0 +1,122 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_1",
+    "Outer": "SPR_Img_Costume_p0021",
+    "Class": "UScriptClass'BodySetup'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AggGeom": {
+        "BoxElems": [
+          {
+            "Center": {
+              "X": -0.9765625,
+              "Y": 0.0,
+              "Z": 0.1953125
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 116.015625,
+            "Y": 10.0,
+            "Z": 282.42188,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Hitbox",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Spirit",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "BlockerAndEnemy",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Blocker",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "9E8012464A687537EE88C692373C06B3"
+  },
+  {
+    "Type": "PaperSprite",
+    "Name": "SPR_Img_Costume_p0021",
+    "Class": "UScriptClass'PaperSprite'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BakedSourceUV": {
+        "X": 3218.0,
+        "Y": 2.0
+      },
+      "BakedSourceDimension": {
+        "X": 800.0,
+        "Y": 800.0
+      },
+      "BakedSourceTexture": {
+        "ObjectName": "Texture2D'ATLAS_Costumes'",
+        "ObjectPath": "/Game/_Zion/UI/Atlases/Costumes/Textures/ATLAS_Costumes.0"
+      },
+      "BodySetup": {
+        "ObjectName": "BodySetup'SPR_Img_Costume_p0021:BodySetup_1'",
+        "ObjectPath": "/Game/_Zion/UI/Atlases/Costumes/SPR_Img_Costume_p0021.0"
+      },
+      "BakedRenderData": [
+        {
+          "X": 57.03125,
+          "Y": 141.40625,
+          "Z": 0.9189453,
+          "W": 0.009765625
+        },
+        {
+          "X": -58.984375,
+          "Y": 141.40625,
+          "Z": 0.84643555,
+          "W": 0.009765625
+        },
+        {
+          "X": -58.984375,
+          "Y": -141.01562,
+          "Z": 0.84643555,
+          "W": 0.1862793
+        },
+        {
+          "X": 57.03125,
+          "Y": -141.01562,
+          "Z": 0.9189453,
+          "W": 0.1862793
+        },
+        {
+          "X": 57.03125,
+          "Y": 141.40625,
+          "Z": 0.9189453,
+          "W": 0.009765625
+        },
+        {
+          "X": -58.984375,
+          "Y": -141.01562,
+          "Z": 0.84643555,
+          "W": 0.1862793
+        }
+      ]
+    }
+  }
+]

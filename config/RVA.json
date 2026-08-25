@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "module": "EnderMagnoliaSteam-Win64-Shipping.exe",
+  "image_base_note": "0x140000000",
+  "rva": {
+    "UnrealWindow_WndProcThunk": "0x0130F6E0",
+    "SpineSkeletonAnimationComponent_SetAnimation": "0x043F2710",
+    "SpineSkeletonAnimationComponent_AddAnimation": "0x043E8B90",
+    "SpineWidget_SetAnimation": "0x043F2B40",
+    "SpineWidget_AddAnimation": "0x043E8FD0",
+    "SpineSkeletonAnimationExComponent_ReplaceSpineData": "0x04528710",
+    "Texture_UpdateResource": "0x03C20A80"
+  },
+  "verify": {
+    "SpineSkeletonAnimationComponent_SetAnimation": {
+      "ufunction": "SpineSkeletonAnimationComponent_SetAnimation",
+      "wrapper_should_call_native": true
+    },
+    "SpineSkeletonAnimationComponent_AddAnimation": {
+      "ufunction": "SpineSkeletonAnimationComponent_AddAnimation",
+      "wrapper_should_call_native": true
+    },
+    "SpineWidget_SetAnimation": {
+      "ufunction": "SpineWidget_SetAnimation",
+      "wrapper_should_call_native": true
+    },
+    "SpineWidget_AddAnimation": {
+      "ufunction": "SpineWidget_AddAnimation",
+      "wrapper_should_call_native": true
+    },
+    "SpineSkeletonAnimationExComponent_ReplaceSpineData": {
+      "ufunction": "SpineSkeletonAnimationExComponent_ReplaceSpineData",
+      "wrapper_should_call_native": false
+    }
+  }
+}

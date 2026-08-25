@@ -1,0 +1,1047 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ItemCostumes",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'InventoryItemCostumeData'",
+        "ObjectPath": "/Script/Zion"
+      }
+    },
+    "Rows": {
+      "p0000": {
+        "bCanBeBought": false,
+        "Conditions": {
+          "ClearedEvents": [],
+          "EventCheckMode": "EEventClearedCheckMode::AnyGameGeneration",
+          "OwnedItems": [],
+          "ReachedEndings": []
+        },
+        "NotifyAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0000_Lilac/Spine/p0000_lilac-notify.p0000_lilac-notify",
+          "SubPathString": ""
+        },
+        "AtlasAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0000_Lilac/Spine/p0000_lilac-atlas.p0000_lilac-atlas",
+          "SubPathString": ""
+        },
+        "SkeletonDataAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0000_Lilac/Spine/p0000_lilac-data.p0000_lilac-data",
+          "SubPathString": ""
+        },
+        "CostumeFXs": [],
+        "bGrantOnNewGame": true,
+        "ItemType": "EInventoryItemType::Costume",
+        "EquipmentType": "EEquipmentType::None",
+        "Icon": {
+          "AssetPathName": "/Game/_Zion/UI/Atlases/Costumes/SPR_Img_Costume_p0000.SPR_Img_Costume_p0000",
+          "SubPathString": ""
+        },
+        "Name": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0000.Name",
+          "SourceString": "p0000",
+          "LocalizedString": "p0000"
+        },
+        "Description": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0000.Description",
+          "SourceString": "p0000 description",
+          "LocalizedString": "p0000 description"
+        },
+        "DescriptionFormatElements": [],
+        "DescriptionStringElements": [],
+        "FlavorText": {
+          "CultureInvariantString": null
+        },
+        "FlavorTextFormatElements": [],
+        "FlavorStringElements": [],
+        "InventoryHideCondition": null,
+        "CollectableDropClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BuyInfo": {
+          "CurrencyType": "ECurrencyType::Default",
+          "CostType": "EValueType::Fixed",
+          "FixedValue": 0,
+          "ValueCurve": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          }
+        }
+      },
+      "p0010": {
+        "bCanBeBought": false,
+        "Conditions": {
+          "ClearedEvents": [],
+          "EventCheckMode": "EEventClearedCheckMode::AnyGameGeneration",
+          "OwnedItems": [],
+          "ReachedEndings": []
+        },
+        "NotifyAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0000_Lilac/Spine/p0000_lilac-notify.p0000_lilac-notify",
+          "SubPathString": ""
+        },
+        "AtlasAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0010_Lilac/Spine/p0010_lilac-atlas.p0010_lilac-atlas",
+          "SubPathString": ""
+        },
+        "SkeletonDataAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0010_Lilac/Spine/p0010_lilac-data.p0010_lilac-data",
+          "SubPathString": ""
+        },
+        "CostumeFXs": [
+          {
+            "Key": "EPlayerCostumeFX::DoubleJump",
+            "Value": {
+              "AssetPathName": "/Game/_Zion/Effects/Gameplay_VFX/NS_Jump_Up_Air_Foot.NS_Jump_Up_Air_Foot",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bGrantOnNewGame": false,
+        "ItemType": "EInventoryItemType::Costume",
+        "EquipmentType": "EEquipmentType::None",
+        "Icon": {
+          "AssetPathName": "/Game/_Zion/UI/Atlases/Costumes/SPR_Img_Costume_p0010.SPR_Img_Costume_p0010",
+          "SubPathString": ""
+        },
+        "Name": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0010.Name",
+          "SourceString": "p0010",
+          "LocalizedString": "p0010"
+        },
+        "Description": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0010.Description",
+          "SourceString": "p0010 description",
+          "LocalizedString": "p0010 description"
+        },
+        "DescriptionFormatElements": [],
+        "DescriptionStringElements": [],
+        "FlavorText": {
+          "CultureInvariantString": null
+        },
+        "FlavorTextFormatElements": [],
+        "FlavorStringElements": [],
+        "InventoryHideCondition": null,
+        "CollectableDropClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BuyInfo": {
+          "CurrencyType": "ECurrencyType::Default",
+          "CostType": "EValueType::Fixed",
+          "FixedValue": 0,
+          "ValueCurve": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          }
+        }
+      },
+      "p0020": {
+        "bCanBeBought": true,
+        "Conditions": {
+          "ClearedEvents": [],
+          "EventCheckMode": "EEventClearedCheckMode::AnyGameGeneration",
+          "OwnedItems": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable'DT_ItemCostumes'",
+                "ObjectPath": "/Game/_Zion/Gameplay/Data/DT_ItemCostumes.0"
+              },
+              "RowName": "p0010"
+            }
+          ],
+          "ReachedEndings": []
+        },
+        "NotifyAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0000_Lilac/Spine/p0000_lilac-notify.p0000_lilac-notify",
+          "SubPathString": ""
+        },
+        "AtlasAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0020_Lilac/Spine/p0020_lilac-atlas.p0020_lilac-atlas",
+          "SubPathString": ""
+        },
+        "SkeletonDataAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0020_Lilac/Spine/p0020_lilac-data.p0020_lilac-data",
+          "SubPathString": ""
+        },
+        "CostumeFXs": [
+          {
+            "Key": "EPlayerCostumeFX::DoubleJump",
+            "Value": {
+              "AssetPathName": "/Game/_Zion/Effects/Gameplay_VFX/NS_Jump_Up_Air_Foot.NS_Jump_Up_Air_Foot",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bGrantOnNewGame": false,
+        "ItemType": "EInventoryItemType::Costume",
+        "EquipmentType": "EEquipmentType::None",
+        "Icon": {
+          "AssetPathName": "/Game/_Zion/UI/Atlases/Costumes/SPR_Img_Costume_p0020.SPR_Img_Costume_p0020",
+          "SubPathString": ""
+        },
+        "Name": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0020.Name",
+          "SourceString": "p0020",
+          "LocalizedString": "p0020"
+        },
+        "Description": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0020.Description",
+          "SourceString": "p0020 description",
+          "LocalizedString": "p0020 description"
+        },
+        "DescriptionFormatElements": [],
+        "DescriptionStringElements": [],
+        "FlavorText": {
+          "CultureInvariantString": null
+        },
+        "FlavorTextFormatElements": [],
+        "FlavorStringElements": [],
+        "InventoryHideCondition": null,
+        "CollectableDropClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BuyInfo": {
+          "CurrencyType": "ECurrencyType::GradePoints",
+          "CostType": "EValueType::Fixed",
+          "FixedValue": 6000,
+          "ValueCurve": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          }
+        }
+      },
+      "p0011": {
+        "bCanBeBought": true,
+        "Conditions": {
+          "ClearedEvents": [],
+          "EventCheckMode": "EEventClearedCheckMode::AnyGameGeneration",
+          "OwnedItems": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable'DT_ItemCostumes'",
+                "ObjectPath": "/Game/_Zion/Gameplay/Data/DT_ItemCostumes.0"
+              },
+              "RowName": "p0010"
+            }
+          ],
+          "ReachedEndings": []
+        },
+        "NotifyAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0000_Lilac/Spine/p0000_lilac-notify.p0000_lilac-notify",
+          "SubPathString": ""
+        },
+        "AtlasAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0011_Lilac/Spine/p0011_lilac-atlas.p0011_lilac-atlas",
+          "SubPathString": ""
+        },
+        "SkeletonDataAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0011_Lilac/Spine/p0011_lilac-data.p0011_lilac-data",
+          "SubPathString": ""
+        },
+        "CostumeFXs": [
+          {
+            "Key": "EPlayerCostumeFX::DoubleJump",
+            "Value": {
+              "AssetPathName": "/Game/_Zion/Effects/Gameplay_VFX/NS_Jump_Up_Air_Foot.NS_Jump_Up_Air_Foot",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bGrantOnNewGame": false,
+        "ItemType": "EInventoryItemType::Costume",
+        "EquipmentType": "EEquipmentType::None",
+        "Icon": {
+          "AssetPathName": "/Game/_Zion/UI/Atlases/Costumes/SPR_Img_Costume_p0011.SPR_Img_Costume_p0011",
+          "SubPathString": ""
+        },
+        "Name": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0011.Name",
+          "SourceString": "p0011",
+          "LocalizedString": "p0011"
+        },
+        "Description": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0011.Description",
+          "SourceString": "p0011 description",
+          "LocalizedString": "p0011 description"
+        },
+        "DescriptionFormatElements": [],
+        "DescriptionStringElements": [],
+        "FlavorText": {
+          "CultureInvariantString": null
+        },
+        "FlavorTextFormatElements": [],
+        "FlavorStringElements": [],
+        "InventoryHideCondition": null,
+        "CollectableDropClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BuyInfo": {
+          "CurrencyType": "ECurrencyType::GradePoints",
+          "CostType": "EValueType::Fixed",
+          "FixedValue": 6000,
+          "ValueCurve": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          }
+        }
+      },
+      "p0021": {
+        "bCanBeBought": true,
+        "Conditions": {
+          "ClearedEvents": [],
+          "EventCheckMode": "EEventClearedCheckMode::AnyGameGeneration",
+          "OwnedItems": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable'DT_ItemCostumes'",
+                "ObjectPath": "/Game/_Zion/Gameplay/Data/DT_ItemCostumes.0"
+              },
+              "RowName": "p0010"
+            }
+          ],
+          "ReachedEndings": []
+        },
+        "NotifyAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0000_Lilac/Spine/p0000_lilac-notify.p0000_lilac-notify",
+          "SubPathString": ""
+        },
+        "AtlasAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0021_Lilac/Spine/p0021_lilac-atlas.p0021_lilac-atlas",
+          "SubPathString": ""
+        },
+        "SkeletonDataAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0021_Lilac/Spine/p0021_lilac-data.p0021_lilac-data",
+          "SubPathString": ""
+        },
+        "CostumeFXs": [
+          {
+            "Key": "EPlayerCostumeFX::DoubleJump",
+            "Value": {
+              "AssetPathName": "/Game/_Zion/Effects/Gameplay_VFX/NS_Jump_Up_Air_Foot.NS_Jump_Up_Air_Foot",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bGrantOnNewGame": false,
+        "ItemType": "EInventoryItemType::Costume",
+        "EquipmentType": "EEquipmentType::None",
+        "Icon": {
+          "AssetPathName": "/Game/_Zion/UI/Atlases/Costumes/SPR_Img_Costume_p0021.SPR_Img_Costume_p0021",
+          "SubPathString": ""
+        },
+        "Name": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0021.Name",
+          "SourceString": "p0021",
+          "LocalizedString": "p0021"
+        },
+        "Description": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0021.Description",
+          "SourceString": "p0021 description",
+          "LocalizedString": "p0021 description"
+        },
+        "DescriptionFormatElements": [],
+        "DescriptionStringElements": [],
+        "FlavorText": {
+          "CultureInvariantString": null
+        },
+        "FlavorTextFormatElements": [],
+        "FlavorStringElements": [],
+        "InventoryHideCondition": null,
+        "CollectableDropClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BuyInfo": {
+          "CurrencyType": "ECurrencyType::GradePoints",
+          "CostType": "EValueType::Fixed",
+          "FixedValue": 6000,
+          "ValueCurve": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          }
+        }
+      },
+      "p0030": {
+        "bCanBeBought": false,
+        "Conditions": {
+          "ClearedEvents": [],
+          "EventCheckMode": "EEventClearedCheckMode::AnyGameGeneration",
+          "OwnedItems": [],
+          "ReachedEndings": []
+        },
+        "NotifyAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0000_Lilac/Spine/p0000_lilac-notify.p0000_lilac-notify",
+          "SubPathString": ""
+        },
+        "AtlasAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0030_Lilac/Spine/p0030_lilac-atlas.p0030_lilac-atlas",
+          "SubPathString": ""
+        },
+        "SkeletonDataAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0030_Lilac/Spine/p0030_lilac-data.p0030_lilac-data",
+          "SubPathString": ""
+        },
+        "CostumeFXs": [
+          {
+            "Key": "EPlayerCostumeFX::DoubleJump",
+            "Value": {
+              "AssetPathName": "/Game/_Zion/Effects/Gameplay_VFX/NS_Jump_Up_Air_Foot.NS_Jump_Up_Air_Foot",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bGrantOnNewGame": false,
+        "ItemType": "EInventoryItemType::Costume",
+        "EquipmentType": "EEquipmentType::None",
+        "Icon": {
+          "AssetPathName": "/Game/_Zion/UI/Atlases/Costumes/SPR_Img_Costume_p0030.SPR_Img_Costume_p0030",
+          "SubPathString": ""
+        },
+        "Name": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0030.Name",
+          "SourceString": "p0030",
+          "LocalizedString": "p0030"
+        },
+        "Description": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0030.Description",
+          "SourceString": "p0030 description",
+          "LocalizedString": "p0030 description"
+        },
+        "DescriptionFormatElements": [],
+        "DescriptionStringElements": [],
+        "FlavorText": {
+          "CultureInvariantString": null
+        },
+        "FlavorTextFormatElements": [],
+        "FlavorStringElements": [],
+        "InventoryHideCondition": null,
+        "CollectableDropClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BuyInfo": {
+          "CurrencyType": "ECurrencyType::Default",
+          "CostType": "EValueType::Fixed",
+          "FixedValue": 0,
+          "ValueCurve": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          }
+        }
+      },
+      "p0031": {
+        "bCanBeBought": true,
+        "Conditions": {
+          "ClearedEvents": [],
+          "EventCheckMode": "EEventClearedCheckMode::AnyGameGeneration",
+          "OwnedItems": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable'DT_ItemCostumes'",
+                "ObjectPath": "/Game/_Zion/Gameplay/Data/DT_ItemCostumes.0"
+              },
+              "RowName": "p0030"
+            }
+          ],
+          "ReachedEndings": []
+        },
+        "NotifyAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0000_Lilac/Spine/p0000_lilac-notify.p0000_lilac-notify",
+          "SubPathString": ""
+        },
+        "AtlasAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0031_Lilac/Spine/p0031_lilac-atlas.p0031_lilac-atlas",
+          "SubPathString": ""
+        },
+        "SkeletonDataAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0031_Lilac/Spine/p0031_lilac-data.p0031_lilac-data",
+          "SubPathString": ""
+        },
+        "CostumeFXs": [
+          {
+            "Key": "EPlayerCostumeFX::DoubleJump",
+            "Value": {
+              "AssetPathName": "/Game/_Zion/Effects/Gameplay_VFX/NS_Jump_Up_Air_Foot.NS_Jump_Up_Air_Foot",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bGrantOnNewGame": false,
+        "ItemType": "EInventoryItemType::Costume",
+        "EquipmentType": "EEquipmentType::None",
+        "Icon": {
+          "AssetPathName": "/Game/_Zion/UI/Atlases/Costumes/SPR_Img_Costume_p0031.SPR_Img_Costume_p0031",
+          "SubPathString": ""
+        },
+        "Name": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0031.Name",
+          "SourceString": "p0031",
+          "LocalizedString": "p0031"
+        },
+        "Description": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0031.Description",
+          "SourceString": "p0031 description",
+          "LocalizedString": "p0031 description"
+        },
+        "DescriptionFormatElements": [],
+        "DescriptionStringElements": [],
+        "FlavorText": {
+          "CultureInvariantString": null
+        },
+        "FlavorTextFormatElements": [],
+        "FlavorStringElements": [],
+        "InventoryHideCondition": null,
+        "CollectableDropClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BuyInfo": {
+          "CurrencyType": "ECurrencyType::GradePoints",
+          "CostType": "EValueType::Fixed",
+          "FixedValue": 6000,
+          "ValueCurve": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          }
+        }
+      },
+      "p0040": {
+        "bCanBeBought": false,
+        "Conditions": {
+          "ClearedEvents": [],
+          "EventCheckMode": "EEventClearedCheckMode::AnyGameGeneration",
+          "OwnedItems": [],
+          "ReachedEndings": []
+        },
+        "NotifyAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0000_Lilac/Spine/p0000_lilac-notify.p0000_lilac-notify",
+          "SubPathString": ""
+        },
+        "AtlasAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0040_Lilac/Spine/p0040_lilac-atlas.p0040_lilac-atlas",
+          "SubPathString": ""
+        },
+        "SkeletonDataAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0040_Lilac/Spine/p0040_lilac-data.p0040_lilac-data",
+          "SubPathString": ""
+        },
+        "CostumeFXs": [
+          {
+            "Key": "EPlayerCostumeFX::DoubleJump",
+            "Value": {
+              "AssetPathName": "/Game/_Zion/Effects/Gameplay_VFX/NS_Jump_Up_Air_Foot.NS_Jump_Up_Air_Foot",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bGrantOnNewGame": false,
+        "ItemType": "EInventoryItemType::Costume",
+        "EquipmentType": "EEquipmentType::None",
+        "Icon": {
+          "AssetPathName": "/Game/_Zion/UI/Atlases/Costumes/SPR_Img_Costume_p0040.SPR_Img_Costume_p0040",
+          "SubPathString": ""
+        },
+        "Name": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0040.Name",
+          "SourceString": "p0040",
+          "LocalizedString": "p0040"
+        },
+        "Description": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0040.Description",
+          "SourceString": "p0040 description",
+          "LocalizedString": "p0040 description"
+        },
+        "DescriptionFormatElements": [],
+        "DescriptionStringElements": [],
+        "FlavorText": {
+          "CultureInvariantString": null
+        },
+        "FlavorTextFormatElements": [],
+        "FlavorStringElements": [],
+        "InventoryHideCondition": null,
+        "CollectableDropClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BuyInfo": {
+          "CurrencyType": "ECurrencyType::Default",
+          "CostType": "EValueType::Fixed",
+          "FixedValue": 0,
+          "ValueCurve": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          }
+        }
+      },
+      "p0041": {
+        "bCanBeBought": true,
+        "Conditions": {
+          "ClearedEvents": [],
+          "EventCheckMode": "EEventClearedCheckMode::AnyGameGeneration",
+          "OwnedItems": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable'DT_ItemCostumes'",
+                "ObjectPath": "/Game/_Zion/Gameplay/Data/DT_ItemCostumes.0"
+              },
+              "RowName": "p0040"
+            }
+          ],
+          "ReachedEndings": []
+        },
+        "NotifyAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0000_Lilac/Spine/p0000_lilac-notify.p0000_lilac-notify",
+          "SubPathString": ""
+        },
+        "AtlasAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0041_Lilac/Spine/p0041_lilac-atlas.p0041_lilac-atlas",
+          "SubPathString": ""
+        },
+        "SkeletonDataAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0041_Lilac/Spine/p0041_lilac-data.p0041_lilac-data",
+          "SubPathString": ""
+        },
+        "CostumeFXs": [
+          {
+            "Key": "EPlayerCostumeFX::DoubleJump",
+            "Value": {
+              "AssetPathName": "/Game/_Zion/Effects/Gameplay_VFX/NS_Jump_Up_Air_Foot.NS_Jump_Up_Air_Foot",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bGrantOnNewGame": false,
+        "ItemType": "EInventoryItemType::Costume",
+        "EquipmentType": "EEquipmentType::None",
+        "Icon": {
+          "AssetPathName": "/Game/_Zion/UI/Atlases/Costumes/SPR_Img_Costume_p0041.SPR_Img_Costume_p0041",
+          "SubPathString": ""
+        },
+        "Name": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0041.Name",
+          "SourceString": "p0041",
+          "LocalizedString": "p0041"
+        },
+        "Description": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0041.Description",
+          "SourceString": "p0041 description",
+          "LocalizedString": "p0041 description"
+        },
+        "DescriptionFormatElements": [],
+        "DescriptionStringElements": [],
+        "FlavorText": {
+          "CultureInvariantString": null
+        },
+        "FlavorTextFormatElements": [],
+        "FlavorStringElements": [],
+        "InventoryHideCondition": null,
+        "CollectableDropClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BuyInfo": {
+          "CurrencyType": "ECurrencyType::GradePoints",
+          "CostType": "EValueType::Fixed",
+          "FixedValue": 6000,
+          "ValueCurve": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          }
+        }
+      },
+      "p0042": {
+        "bCanBeBought": true,
+        "Conditions": {
+          "ClearedEvents": [],
+          "EventCheckMode": "EEventClearedCheckMode::AnyGameGeneration",
+          "OwnedItems": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable'DT_ItemCostumes'",
+                "ObjectPath": "/Game/_Zion/Gameplay/Data/DT_ItemCostumes.0"
+              },
+              "RowName": "p0040"
+            }
+          ],
+          "ReachedEndings": []
+        },
+        "NotifyAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0000_Lilac/Spine/p0000_lilac-notify.p0000_lilac-notify",
+          "SubPathString": ""
+        },
+        "AtlasAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0042_Lilac/Spine/p0042_lilac-atlas.p0042_lilac-atlas",
+          "SubPathString": ""
+        },
+        "SkeletonDataAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0042_Lilac/Spine/p0042_lilac-data.p0042_lilac-data",
+          "SubPathString": ""
+        },
+        "CostumeFXs": [
+          {
+            "Key": "EPlayerCostumeFX::DoubleJump",
+            "Value": {
+              "AssetPathName": "/Game/_Zion/Effects/Gameplay_VFX/NS_Jump_Up_Air_Foot.NS_Jump_Up_Air_Foot",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bGrantOnNewGame": false,
+        "ItemType": "EInventoryItemType::Costume",
+        "EquipmentType": "EEquipmentType::None",
+        "Icon": {
+          "AssetPathName": "/Game/_Zion/UI/Atlases/Costumes/SPR_Img_Costume_p0042.SPR_Img_Costume_p0042",
+          "SubPathString": ""
+        },
+        "Name": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0042.Name",
+          "SourceString": "p0042",
+          "LocalizedString": "p0042"
+        },
+        "Description": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0042.Description",
+          "SourceString": "p0042 description",
+          "LocalizedString": "p0042 description"
+        },
+        "DescriptionFormatElements": [],
+        "DescriptionStringElements": [],
+        "FlavorText": {
+          "CultureInvariantString": null
+        },
+        "FlavorTextFormatElements": [],
+        "FlavorStringElements": [],
+        "InventoryHideCondition": null,
+        "CollectableDropClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BuyInfo": {
+          "CurrencyType": "ECurrencyType::GradePoints",
+          "CostType": "EValueType::Fixed",
+          "FixedValue": 6000,
+          "ValueCurve": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          }
+        }
+      },
+      "p0050": {
+        "bCanBeBought": false,
+        "Conditions": {
+          "ClearedEvents": [],
+          "EventCheckMode": "EEventClearedCheckMode::AnyGameGeneration",
+          "OwnedItems": [],
+          "ReachedEndings": []
+        },
+        "NotifyAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0000_Lilac/Spine/p0000_lilac-notify.p0000_lilac-notify",
+          "SubPathString": ""
+        },
+        "AtlasAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0050_Lilac/Spine/p0050_lilac-atlas.p0050_lilac-atlas",
+          "SubPathString": ""
+        },
+        "SkeletonDataAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0050_Lilac/Spine/p0050_lilac-data.p0050_lilac-data",
+          "SubPathString": ""
+        },
+        "CostumeFXs": [
+          {
+            "Key": "EPlayerCostumeFX::DoubleJump",
+            "Value": {
+              "AssetPathName": "/Game/_Zion/Effects/Gameplay_VFX/NS_Jump_Up_Air_Foot.NS_Jump_Up_Air_Foot",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bGrantOnNewGame": false,
+        "ItemType": "EInventoryItemType::Costume",
+        "EquipmentType": "EEquipmentType::None",
+        "Icon": {
+          "AssetPathName": "/Game/_Zion/UI/Atlases/Costumes/SPR_Img_Costume_p0050.SPR_Img_Costume_p0050",
+          "SubPathString": ""
+        },
+        "Name": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0050.Name",
+          "SourceString": "p0050",
+          "LocalizedString": "p0050"
+        },
+        "Description": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0050.Description",
+          "SourceString": "p0050 description",
+          "LocalizedString": "p0050 description"
+        },
+        "DescriptionFormatElements": [],
+        "DescriptionStringElements": [],
+        "FlavorText": {
+          "CultureInvariantString": null
+        },
+        "FlavorTextFormatElements": [],
+        "FlavorStringElements": [],
+        "InventoryHideCondition": null,
+        "CollectableDropClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BuyInfo": {
+          "CurrencyType": "ECurrencyType::Default",
+          "CostType": "EValueType::Fixed",
+          "FixedValue": 0,
+          "ValueCurve": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          }
+        }
+      },
+      "p0051": {
+        "bCanBeBought": true,
+        "Conditions": {
+          "ClearedEvents": [],
+          "EventCheckMode": "EEventClearedCheckMode::AnyGameGeneration",
+          "OwnedItems": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable'DT_ItemCostumes'",
+                "ObjectPath": "/Game/_Zion/Gameplay/Data/DT_ItemCostumes.0"
+              },
+              "RowName": "p0050"
+            }
+          ],
+          "ReachedEndings": []
+        },
+        "NotifyAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0000_Lilac/Spine/p0000_lilac-notify.p0000_lilac-notify",
+          "SubPathString": ""
+        },
+        "AtlasAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0051_Lilac/Spine/p0051_lilac-atlas.p0051_lilac-atlas",
+          "SubPathString": ""
+        },
+        "SkeletonDataAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0051_Lilac/Spine/p0051_lilac-data.p0051_lilac-data",
+          "SubPathString": ""
+        },
+        "CostumeFXs": [
+          {
+            "Key": "EPlayerCostumeFX::DoubleJump",
+            "Value": {
+              "AssetPathName": "/Game/_Zion/Effects/Gameplay_VFX/NS_Jump_Up_Air_Foot.NS_Jump_Up_Air_Foot",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bGrantOnNewGame": false,
+        "ItemType": "EInventoryItemType::Costume",
+        "EquipmentType": "EEquipmentType::None",
+        "Icon": {
+          "AssetPathName": "/Game/_Zion/UI/Atlases/Costumes/SPR_Img_Costume_p0051.SPR_Img_Costume_p0051",
+          "SubPathString": ""
+        },
+        "Name": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0051.Name",
+          "SourceString": "p0051",
+          "LocalizedString": "p0051"
+        },
+        "Description": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0051.Description",
+          "SourceString": "p0051 description",
+          "LocalizedString": "p0051 description"
+        },
+        "DescriptionFormatElements": [],
+        "DescriptionStringElements": [],
+        "FlavorText": {
+          "CultureInvariantString": null
+        },
+        "FlavorTextFormatElements": [],
+        "FlavorStringElements": [],
+        "InventoryHideCondition": null,
+        "CollectableDropClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BuyInfo": {
+          "CurrencyType": "ECurrencyType::GradePoints",
+          "CostType": "EValueType::Fixed",
+          "FixedValue": 6000,
+          "ValueCurve": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          }
+        }
+      },
+      "p0060": {
+        "bCanBeBought": true,
+        "Conditions": {
+          "ClearedEvents": [],
+          "EventCheckMode": "EEventClearedCheckMode::AnyGameGeneration",
+          "OwnedItems": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable'DT_ItemCostumes'",
+                "ObjectPath": "/Game/_Zion/Gameplay/Data/DT_ItemCostumes.0"
+              },
+              "RowName": "p0050"
+            }
+          ],
+          "ReachedEndings": []
+        },
+        "NotifyAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0000_Lilac/Spine/p0000_lilac-notify.p0000_lilac-notify",
+          "SubPathString": ""
+        },
+        "AtlasAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0060_Lilac/Spine/p0060_lilac-atlas.p0060_lilac-atlas",
+          "SubPathString": ""
+        },
+        "SkeletonDataAsset": {
+          "AssetPathName": "/Game/_Zion/Characters/p0060_Lilac/Spine/p0060_lilac-data.p0060_lilac-data",
+          "SubPathString": ""
+        },
+        "CostumeFXs": [
+          {
+            "Key": "EPlayerCostumeFX::DoubleJump",
+            "Value": {
+              "AssetPathName": "/Game/_Zion/Effects/Gameplay_VFX/NS_Jump_Up_Air_Foot.NS_Jump_Up_Air_Foot",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bGrantOnNewGame": false,
+        "ItemType": "EInventoryItemType::Costume",
+        "EquipmentType": "EEquipmentType::None",
+        "Icon": {
+          "AssetPathName": "/Game/_Zion/UI/Atlases/Costumes/SPR_Img_Costume_p0060.SPR_Img_Costume_p0060",
+          "SubPathString": ""
+        },
+        "Name": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0060.Name",
+          "SourceString": "p0060",
+          "LocalizedString": "p0060"
+        },
+        "Description": {
+          "Namespace": "DT_ItemCostumes",
+          "Key": "p0060.Description",
+          "SourceString": "p0060 description",
+          "LocalizedString": "p0060 description"
+        },
+        "DescriptionFormatElements": [],
+        "DescriptionStringElements": [],
+        "FlavorText": {
+          "CultureInvariantString": null
+        },
+        "FlavorTextFormatElements": [],
+        "FlavorStringElements": [],
+        "InventoryHideCondition": null,
+        "CollectableDropClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BuyInfo": {
+          "CurrencyType": "ECurrencyType::GradePoints",
+          "CostType": "EValueType::Fixed",
+          "FixedValue": 12000,
+          "ValueCurve": {
+            "EditorCurveData": {
+              "Keys": [],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "ExternalCurve": null
+          }
+        }
+      }
+    }
+  }
+]

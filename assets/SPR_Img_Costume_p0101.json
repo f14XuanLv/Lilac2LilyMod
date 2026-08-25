@@ -1,0 +1,55 @@
+{
+   "Meta": {
+      "Address": "00000219384EF400",
+      "ClassPrivate": {
+         "Address": "00000219021DA400",
+         "Name": "PaperSprite"
+      },
+      "NamePrivate": {
+         "Components": {
+            "ComparisonIndex": 2061515,
+            "DisplayIndex": null,
+            "Number": 0
+         },
+         "String": "SPR_Img_Costume_p0101"
+      },
+      "ObjectFlags": {
+         "Flags": [
+            "RF_Public",
+            "RF_Standalone",
+            "RF_Transactional",
+            "RF_WasLoaded",
+            "RF_LoadCompleted",
+            "RF_AllFlags"
+         ],
+         "Raw": 2621451
+      },
+      "Path": "/Engine/Transient.SPR_Img_Costume_p0101",
+      "PlayerControlled": false,
+      "Size": {
+         "Exclusive": {
+            "Object": 40,
+            "PaperSprite": 144
+         },
+         "Inclusive": {
+            "Object": 40,
+            "PaperSprite": 184
+         },
+         "Total": 184
+      }
+   },
+   "Values": {
+      "AdditionalSourceTextures": "",
+      "AlternateMaterial": "MaterialInstanceConstant /Paper2D/OpaqueUnlitSpriteMaterial.OpaqueUnlitSpriteMaterial",
+      "AlternateMaterialSplitIndex": "-1",
+      "BakedRenderData": "((X=241.000000,Y=579.000000,Z=0.685385,W=0.054615),(X=-196.000000,Y=579.000000,Z=0.349231,W=0.054615),(X=-196.000000,Y=-579.000000,Z=0.349231,W=0.945385),(X=241.000000,Y=-579.000000,Z=0.685385,W=0.945385),(X=241.000000,Y=579.000000,Z=0.685385,W=0.054615),(X=-196.000000,Y=-579.000000,Z=0.349231,W=0.945385))",
+      "BakedSourceDimension": "(X=1300.000000,Y=1300.000000)",
+      "BakedSourceTexture": "Texture2D /Engine/Transient.T_Img_Costume_p0101",
+      "BakedSourceUV": "(X=0.000000,Y=0.000000)",
+      "BodySetup": "None",
+      "DefaultMaterial": "MaterialInstanceConstant /Paper2D/MaskedUnlitSpriteMaterial.MaskedUnlitSpriteMaterial",
+      "PixelsPerUnrealUnit": "1.000000",
+      "Sockets": "",
+      "SpriteCollisionDomain": "None"
+   }
+}

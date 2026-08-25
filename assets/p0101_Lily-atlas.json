@@ -1,0 +1,46 @@
+{
+   "Meta": {
+      "Address": "000002577E7F3B80",
+      "ClassPrivate": {
+         "Address": "0000025748BDF800",
+         "Name": "SpineAtlasAsset"
+      },
+      "NamePrivate": {
+         "Components": {
+            "ComparisonIndex": 2061574,
+            "DisplayIndex": null,
+            "Number": 0
+         },
+         "String": "p0101_Lily-atlas"
+      },
+      "ObjectFlags": {
+         "Flags": [
+            "RF_Public",
+            "RF_Standalone",
+            "RF_Transactional",
+            "RF_WasLoaded",
+            "RF_LoadCompleted",
+            "RF_AllFlags"
+         ],
+         "Raw": 2621451
+      },
+      "Path": "/Engine/Transient.p0101_Lily-atlas",
+      "PlayerControlled": false,
+      "Size": {
+         "Exclusive": {
+            "Object": 40,
+            "SpineAtlasAsset": 48
+         },
+         "Inclusive": {
+            "Object": 40,
+            "SpineAtlasAsset": 88
+         },
+         "Total": 88
+      }
+   },
+   "Values": {
+      "atlasFileName": "not important",
+      "atlasPages": "(\"/Script/Engine.Texture2D'/Game/_Zion/Characters/p0101_Lily/Spine/Textures/p0101_Lily.p0101_Lily'\")",
+      "rawData": "please use .atlas's data"
+   }
+}
