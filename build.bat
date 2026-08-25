@@ -3,7 +3,7 @@ chcp 65001 >nul
 setlocal EnableExtensions EnableDelayedExpansion
 
 rem Configure and build Lilac2LilyMod with the pinned RE-UE4SS submodule.
-rem CMake's post-build step packages config, assets, and dlls\main.dll.
+rem This script packages config, assets, and dlls\main.dll after the build.
 rem This script does not modify or stage files inside RE-UE4SS.
 rem
 rem Usage:
@@ -61,6 +61,15 @@ if not exist "%BUILD_DIR%\CMakeCache.txt" (
 echo [build] cmake --build (Ninja with MSVC %MSVC_TOOLSET_VERSION%, %L2L_BUILD_CONFIG%)
 cmake --build "%BUILD_DIR%" --target Lilac2LilyMod -j 4
 if errorlevel 1 exit /b 1
+
+set "PACKAGE_DIR=%BUILD_DIR%\%L2L_BUILD_CONFIG%\Lilac2LilyMod"
+if exist "%PACKAGE_DIR%\config" rmdir /S /Q "%PACKAGE_DIR%\config"
+if exist "%PACKAGE_DIR%\assets" rmdir /S /Q "%PACKAGE_DIR%\assets"
+
+robocopy "%RT_ROOT%\config" "%PACKAGE_DIR%\config" /E /COPY:DAT /DCOPY:T /R:0 /W:0 /NFL /NDL /NJH /NJS /NP
+if errorlevel 8 exit /b 1
+robocopy "%RT_ROOT%\assets" "%PACKAGE_DIR%\assets" /E /COPY:DAT /DCOPY:T /R:0 /W:0 /NFL /NDL /NJH /NJS /NP
+if errorlevel 8 exit /b 1
 
 echo [done] main.dll, config, and assets are in the Lilac2LilyMod target output directory.
 endlocal

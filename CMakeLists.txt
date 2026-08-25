@@ -61,15 +61,3 @@ set_target_properties(Lilac2LilyMod PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${LILAC2LILY_MOD_PACKAGE_DIR}/dlls"
     MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
 )
-
-# Package the mod in the directory structure expected by UE4SS.
-add_custom_command(TARGET Lilac2LilyMod POST_BUILD
-    COMMAND ${CMAKE_COMMAND} -E make_directory
-            "${LILAC2LILY_MOD_PACKAGE_DIR}"
-    COMMAND ${CMAKE_COMMAND} -E copy_directory
-            "${CMAKE_CURRENT_SOURCE_DIR}/config"
-            "${LILAC2LILY_MOD_PACKAGE_DIR}/config"
-    COMMAND ${CMAKE_COMMAND} -E copy_directory
-            "${CMAKE_CURRENT_SOURCE_DIR}/assets"
-            "${LILAC2LILY_MOD_PACKAGE_DIR}/assets"
-)
