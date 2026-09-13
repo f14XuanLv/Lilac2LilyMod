@@ -6,6 +6,13 @@ A skin expansion mod for *ENDER MAGNOLIA*. It adds **Garment of Bygone Days** as
 
 This is a visual skin expansion only: the character's gameplay logic and identity remain Lilac. After installation, open the menu at a rest point, select **Extra**, and scroll to the bottom of the costume list to find the new costume.
 
+## Mod Installation Environment Requirements
+
+- Operating system: Windows 10/11
+- CPU architecture: amd64
+- Game version: 1.1.1
+- UE4SS version: [UE4SS v3.0.1-998-g32d8a381](https://github.com/UE4SS-RE/RE-UE4SS/releases/download/experimental/UE4SS_v3.0.1-998-g32d8a381.zip)
+
 ## Preview
 
 ![Rest point menu](docs/images/preview_rest_point.png)
@@ -64,6 +71,16 @@ Lilac2LilyMod : 1
 
 Place the line with the other Mod entries, before the built-in `Keybinds` entry if one is present.
 
+### 3. Installed Directory Structure
+
+After installation, the directory structure and configuration should look like this:
+
+![UE4SS in the game directory](docs/images/folder_structure1.png)
+
+![Mods directory and mods.txt configuration](docs/images/folder_structure2.png)
+
+![Lilac2LilyMod directory structure](docs/images/folder_structure3.png)
+
 ## Clone and build
 
 This section is only needed if you want to build the Mod from source. Users installing a release archive can skip it.
@@ -71,7 +88,7 @@ This section is only needed if you want to build the Mod from source. Users inst
 Clone this repository with its nested UE4SS submodules:
 
 ```powershell
-git clone --recurse-submodules <Lilac2LilyMod-repository-url>
+git clone --recurse-submodules https://github.com/f14XuanLv/Lilac2LilyMod
 cd Lilac2LilyMod
 ```
 

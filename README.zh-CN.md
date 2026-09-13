@@ -7,6 +7,13 @@
 
 这只是外观皮肤拓展，角色逻辑和游戏中的角色本质仍然是莱拉克（Lilac）。安装完成后，进入休息点打开菜单，点击 **Extra（额外内容）**，将服装列表滑动到最下方，即可看到新增服装。
 
+## Mod 安装环境要求
+
+- 操作系统：Windows 10/11
+- CPU 架构：amd64
+- 游戏版本：1.1.1
+- UE4SS 版本：[UE4SS v3.0.1-998-g32d8a381](https://github.com/UE4SS-RE/RE-UE4SS/releases/download/experimental/UE4SS_v3.0.1-998-g32d8a381.zip)
+
 ## 效果预览
 
 ![休息点菜单](docs/images/preview_rest_point.png)
@@ -65,6 +72,16 @@ Lilac2LilyMod : 1
 
 如果存在内置的 `Keybinds` 条目，请将本 Mod 放在该条目之前。
 
+### 3. 安装完成后的目录结构
+
+安装完成后，目录结构及配置应如下所示：
+
+![游戏目录中的 UE4SS](docs/images/folder_structure1.png)
+
+![Mods 目录及 mods.txt 配置](docs/images/folder_structure2.png)
+
+![Lilac2LilyMod 目录结构](docs/images/folder_structure3.png)
+
 ## 克隆和编译
 
 如果你只是安装 Releases 中的 Mod 压缩包，可以跳过本节。本节仅适用于希望从源码构建 Mod 的用户。
@@ -72,7 +89,7 @@ Lilac2LilyMod : 1
 使用以下命令克隆包含嵌套 UE4SS 子模块的仓库：
 
 ```powershell
-git clone --recurse-submodules <Lilac2LilyMod-repository-url>
+git clone --recurse-submodules https://github.com/f14XuanLv/Lilac2LilyMod
 cd Lilac2LilyMod
 ```
 
